@@ -10,8 +10,8 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 ## Integrantes
 
-* Gabriel Cedro Anunziato
-* Fernanda Araujo Macieira
+* Gabriel
+* Fernanda 
 * Hector Florença da Silva Mendes
 * Roberta Coutinho Paes
 * Isabella Carolina de Almeida Siqueira Damião
