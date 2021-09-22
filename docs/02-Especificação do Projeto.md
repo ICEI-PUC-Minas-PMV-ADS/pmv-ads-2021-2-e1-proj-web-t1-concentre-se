@@ -1,44 +1,79 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
-
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+ A escolha do referido problema foi definida por meio de entrevistas e estudos realizados pelos membros da 
+equipe. Os detalhes levantados nesse processo foram consolidados na forma de personas e histórias de usuários. 
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+As personas levantadas durante o processo de entendimento do problema são apresentadas nas figuras que se seguem: 
+ 
+ 
+Tomás Edson 	
+	Idade: 23 anos 
+Ocupação: estudante, atualmente estuda para conseguir passar no vestibular de medicina. 	Dificuldades: ● Estudar por muito tempo; 
+●	Desorganizado; 
+●	Ansioso. 
+Motivações 
+●	Especializar em geriatria; 
+●	Ajudar seus pais na reforma da casa. 
+ 	Frustrações 
+●	Viu a avó necessitando de socorro médico, e não conseguiu ajudá-la; 
+●	Foi reprovado no vestibular no ano de 2018. 
+  	Hobbies, História 
+● Tocar violão; ● Assistir filmes da Marvel. 
+  
+ 
+ 
+ 
+Geraldo José 	
+	Idade: 41 anos 
+Ocupação: Engenheiro de Produção, funcionário de uma multinacional. 
+Esposo e pai de 4 filhos. 	Dificuldades: ● Estudar em pouco tempo e de forma efetiva. 
+  
+Motivações 
+●	Família; 
+●	Se destacar e subir de cargo; 
+●	Mudar de país. 
+  	Frustrações 
+●     Não conseguiu a promoção que queria. 	Hobbies, História 
+●	Churrasco com a família; 
+●	Pescar. 
+ 
+Motivações 
+•	Terminar o Ensino Médio; 
+•	Passar no Enem. 	Frustrações 
+●     Ter sido reprovada no 3º ano do Ensino Médio. 	Hobbies, História 
+●	Séries; 
+●	Sair com os amigos. 
+ 
+ 
+   	Renata Barreto 
+	Idade: 32 anos 
+Ocupação: 
+Empresária e mãe de 
+1 filho. 	Dificuldades: 
+●      Que seu filho se concentre na hora de realizar suas tarefas. 
+ 
+Motivações 
+●    Ajudar seu filho a se sair melhor nos estudos. 
+ 	Frustrações 
+●     O filho foi reprovado.  	Hobbies, História 
+●	Cozinhar; 
+●	Tricotar.  
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
-
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
 
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
-
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
+A partir da compreensão do cotidiano das personas identificadas para o projeto, foram registradas as seguintes histórias de usuários: 
+ 
+Eu como …  [PERSONA] 	… quero/desejo … 
+[O QUE] 	… para .... 
+[POR QUE] 
+Tomás Edson 	Conseguir estudar mais e por mais tempo durante o dia. 	Melhorar a minha performance e passar no vestibular. 
+ 
+Geraldo José 	Ser mais produtivo nos pequenos intervalos que possuo para estudar. 	Conseguir chegar em casa e não precisar sacrificar o tempo que tenho com a minha família. 
+Larissa Alves 	Conseguir gerenciar a  minha rotina do Ensino Médio, conciliando-a com o vestibular.  	Poder melhorar as minhas notas, finalizar o Ensino Médio e passar no vestibular. 
+Renata Barreto 	Entender o porquê do meu filho ter tanta dificuldade para se concentrar. 	Para ajudá-lo nas atividades escolares. 
 
 ## Requisitos
 
