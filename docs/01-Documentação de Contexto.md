@@ -13,7 +13,7 @@ Atenção (TDAH), estresse, síndromes, depressão, ansiedade, entre outros. Ent
 
 ## Problema
 
-    Diante do exposto, possibilitou-se constatar que inúmeras pessoas buscam aprimorar suas capacidades 
+Diante do exposto, possibilitou-se constatar que inúmeras pessoas buscam aprimorar suas capacidades 
 cognitivas. Porém, crescentes relatos sociais apontam dificuldades para atingir tal finalidade, ainda 
 mais, em tempos de isolamento social. 
 
@@ -32,7 +32,7 @@ com psicólogos e psiquiatras e cases de sucesso;
 ## Justificativa
 
   A Fundação Getúlio Vargas (FGV) em parceria com a Escola de Administração de Empresa de São Paulo (EAESP), 
-entrevistou diversos profissionais que estão trabalhando em home office, a fim de compreender melhor os impactos desta modalidade na vida dos colaboradores. Conforme os resultados obtidos, foi possível constatar que 56% dos entrevistados estão tendo dificuldades para realizar as atividades laborais em casa. Além disso, 36% relataram redução da produtividade após o início da nova rotina. Diante deste relato, bem como dos demais apontados anteriormente, é possível afirmar que muitos brasileiros estão com dificuldade para se concentrar em suas atividades laborais e pessoais. Uma vez que, o isolamento social provocou uma brusca mudança de hábitos, já que, os ambientes de trabalho, estudo e familiar se tornaram o mesmo. Assim, justificamos esta proposta como algo de grande potencial; seguramente, trará grandes benefícios a sociedade moderna.  montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+entrevistou diversos profissionais que estão trabalhando em home office, a fim de compreender melhor os impactos desta modalidade na vida dos colaboradores. Conforme os resultados obtidos, foi possível constatar que 56% dos entrevistados estão tendo dificuldades para realizar as atividades laborais em casa. Além disso, 36% relataram redução da produtividade após o início da nova rotina. Diante deste relato, bem como dos demais apontados anteriormente, é possível afirmar que muitos brasileiros estão com dificuldade para se concentrar em suas atividades laborais e pessoais. Uma vez que, o isolamento social provocou uma brusca mudança de hábitos, já que, os ambientes de trabalho, estudo e familiar se tornaram o mesmo. Assim, justificamos esta proposta como algo de grande potencial; seguramente, trará grandes benefícios a sociedade moderna.
 
 ## Público-Alvo
 
