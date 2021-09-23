@@ -8,58 +8,10 @@ equipe. Os detalhes levantados nesse processo foram consolidados na forma de per
 As personas levantadas durante o processo de entendimento do problema são apresentadas nas figuras que se seguem: 
  
  
-Tomás Edson 	
-	Idade: 23 anos 
-Ocupação: estudante, atualmente estuda para conseguir passar no vestibular de medicina. 	Dificuldades: ● Estudar por muito tempo; 
-●	Desorganizado; 
-●	Ansioso. 
-Motivações 
-●	Especializar em geriatria; 
-●	Ajudar seus pais na reforma da casa. 
- 	Frustrações 
-●	Viu a avó necessitando de socorro médico, e não conseguiu ajudá-la; 
-●	Foi reprovado no vestibular no ano de 2018. 
-  	Hobbies, História 
-● Tocar violão; ● Assistir filmes da Marvel. 
-  
- 
- 
- 
-Geraldo José 	
-	Idade: 41 anos 
-Ocupação: Engenheiro de Produção, funcionário de uma multinacional. 
-Esposo e pai de 4 filhos. 	Dificuldades: ● Estudar em pouco tempo e de forma efetiva. 
-  
-Motivações 
-●	Família; 
-●	Se destacar e subir de cargo; 
-●	Mudar de país. 
-  	Frustrações 
-●     Não conseguiu a promoção que queria. 	Hobbies, História 
-●	Churrasco com a família; 
-●	Pescar. 
- 
-Motivações 
-•	Terminar o Ensino Médio; 
-•	Passar no Enem. 	Frustrações 
-●     Ter sido reprovada no 3º ano do Ensino Médio. 	Hobbies, História 
-●	Séries; 
-●	Sair com os amigos. 
- 
- 
-   	Renata Barreto 
-	Idade: 32 anos 
-Ocupação: 
-Empresária e mãe de 
-1 filho. 	Dificuldades: 
-●      Que seu filho se concentre na hora de realizar suas tarefas. 
- 
-Motivações 
-●    Ajudar seu filho a se sair melhor nos estudos. 
- 	Frustrações 
-●     O filho foi reprovado.  	Hobbies, História 
-●	Cozinhar; 
-●	Tricotar.  
+![Persona 01](https://thumbs2.imgbox.com/e1/19/ygexfpp1_t.png)
+![Persona 02](https://thumbs2.imgbox.com/f3/e0/vjLAnJWd_t.png)
+![Persona 03](https://thumbs2.imgbox.com/3f/59/ifsF0w0F_t.png)
+![Persona 04](https://thumbs2.imgbox.com/0a/5a/XDEWVBYi_t.png)
 
 
 ## Histórias de Usuários
