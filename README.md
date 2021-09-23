@@ -1,23 +1,21 @@
 # Concentre-se
+`ANÁLISE E DESENVOLVIMENTO DE SISTEMAS`
 
-`CURSO`
+`PROJETO: DESENVOLVIMENTO DE APLICAÇÃO INTERATIVA`
 
-`DISCIPLINA`
-
-`SEMESTRE`
+`EIXO 1`
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
 ## Integrantes
 
-* Gabriel
-* Fernanda 
+* Gabriel Cedro Anunziato
+* Fernanda Araujo Macieira
 * Hector Florença da Silva Mendes
 * Roberta Coutinho Paes
 * Isabella Carolina de Almeida Siqueira Damião
 * Luiz Guilherme Martins Franchim
 * Helen Tito Gomes Belinassi
-
 ## Orientador
 
 * Joyce Christina de Paiva Carvalho
