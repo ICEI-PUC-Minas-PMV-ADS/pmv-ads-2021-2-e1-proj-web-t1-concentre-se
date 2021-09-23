@@ -27,8 +27,8 @@ A partir da compreensão do cotidiano das personas identificadas para o projeto,
 | Tomás Edson | Gostaria de poder entrar em contato com mantenedor do site | Para enviar um feedback. |
 |Geraldo José  | Ser mais produtivo nos pequenos intervalos que possuo para estudar.  | Para conciliar melhor meu tempo nas minhas tarefas.  |
 |Geraldo José  | Acessar videos e artigos que tenham breves imagens resumindo o conteudo. | Para facilitar a compreensão do conteudo. |
-|Geraldo José | Um funcionalidade para pesquisar sobre conteudo no aqual eu busco. | Para ser mais objetiva . |
-|Larissa Alves   | Conseguir gerenciar a  minha rotina do Ensino Médio, conciliando-a com o vestibular.  |
+|Geraldo José | Um funcionalidade para pesquisar sobre conteudo no aqual eu busco. | Para ser mais objetiva. |
+|Larissa Alves   | Conseguir gerenciar a  minha rotina do Ensino Médio, conciliando-a com o vestibular. |
 Poder melhorar as minhas notas, finalizar o Ensino Médio e passar no vestibular. |
 |Larissa Alves  | Um site aonde posso escolher um tema da minha escolha.| Para localizar mais rapido certo conteudo. |
 |Renata Barreto   | Entender o porquê do meu filho ter tanta dificuldade para se concentrar.  | Para ajudá-lo nas atividades escolares.  | 
@@ -53,7 +53,7 @@ Os requisitos funcionais representam as necessidades, características e recurso
 | RF-006 | O site deve permitir o compartilhamento dos conteúdos visualizados em plataformas de redes sociais. | BAIXA | 
 | RF-007 | O site deve permitir que usuários possam comentar os conteúdos. | MÉDIA | 
 | RF-008 | O site deve exibir os comentários registrados juntamente com a publicação exibida. | BAIXA | 
-| RF-009 | O site deve exibir artigos voltados a gerenciamento de rotina, exercicios de concentração e musicas que auxilia no foco. | MÉDIA |
+| RF-009 | O site deve exibir artigos sobre concentração, gerenciamento de rotina, exercicios de concentração e musicas que auxilia no foco. | ALTA |
 
 ### Requisitos não Funcionais
 
@@ -66,7 +66,7 @@ Os requisitos não-funcionais descrevem características de caráter mais técni
 |RNF-003| O site deve ter bom nível de contraste entre os elementos da tela em conformidade. | MÉDIA | 
 |RNF-004| O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge). | ALTA | 
 |RNF-005| O site deve atender todos os quesitos de direitos autorais. | ALTA | 
-|RNF-006| Definição de um modelo de criação e inserção de dados que facilite a reutilização e constante atualização da plataforma. | MÉDIA |
+|RNF-006| O site deve orientar, ao fim de cada publicação que, caso o usuário não tenha conseguido amenizar/solucionar sua dificuldade, é recomendado que procure um especialista da área. | MÉDIA |
 
 ## Restrições
 
