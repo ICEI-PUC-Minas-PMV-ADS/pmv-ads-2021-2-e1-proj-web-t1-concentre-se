@@ -22,11 +22,18 @@ A partir da compreensão do cotidiano das personas identificadas para o projeto,
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Tomás Edson  | Conseguir estudar mais e por mais tempo durante o dia.  | Melhorar a minha performance e passar no vestibular.  |
-|Geraldo José  | Ser mais produtivo nos pequenos intervalos que possuo para estudar.  | Conseguir chegar em casa e não precisar sacrificar o tempo que tenho com a minha família.  |
-|Larissa Alves   | Conseguir gerenciar a  minha rotina do Ensino Médio, conciliando-a com o vestibular.  | Poder melhorar as minhas notas, finalizar o Ensino Médio e passar no vestibular. |
+| Tomás Edson | ler artigos recomendados e as últimas publicações .  | Para encontrar conteudos atualizados sobre organização de rotinas . |
+| Tomás Edson | Gostaria de poder localizar conteudos de sons que estimulem no foco. | Para me concentrar melhor nos estudos . |
+| Tomás Edson | Gostaria de poder entrar em contato com mantenedor do site | Para enviar um feedback. |
+|Geraldo José  | Ser mais produtivo nos pequenos intervalos que possuo para estudar.  | Para conciliar melhor meu tempo nas minhas tarefas.  |
+|Geraldo José  | Acessar videos e artigos que tenham breves imagens resumindo o conteudo. | Para facilitar a compreensão do conteudo. |
+|Geraldo José | Um funcionalidade para pesquisar sobre conteudo no aqual eu busco. | Para ser mais objetiva . |
+|Larissa Alves   | Conseguir gerenciar a  minha rotina do Ensino Médio, conciliando-a com o vestibular.  |
+Poder melhorar as minhas notas, finalizar o Ensino Médio e passar no vestibular. |
+|Larissa Alves  | Um site aonde posso escolher um tema da minha escolha.| Para localizar mais rapido certo conteudo. |
 |Renata Barreto   | Entender o porquê do meu filho ter tanta dificuldade para se concentrar.  | Para ajudá-lo nas atividades escolares.  | 
-
+|Renata Barreto   | Comentar e compartilhar minhas experiencias e dificuldades | Para contribuir na vida de outras pessoas e também aprender. | 
+|Renata Barreto   | Compartilhar com outras mães artigos de meu interesse. | Para ajudar outras mães com os mesmo problemas. |
 ## Requisitos
 
 O escopo funcional do projeto é definido por meio dos requisitos funcionais que descrevem as possibilidades de interação dos usuários, bem como os requisitos não funcionais que descrevem os aspectos que o sistema deverá apresentar de maneira geral. Estes requisitos são apresentados abaixo
@@ -39,17 +46,14 @@ Os requisitos funcionais representam as necessidades, características e recurso
 |ID           | Descrição do Requisito  | Prioridade |
 |-------------|------------------------------|----|
 | RF-001 | O site deve apresentar, na página principal, artigos recomendados e as últimas publicações. | ALTA | 
-| RF-002 | O site deve apresentar, para cada artigo e reportagem, uma imagem ou um vídeo correspondente ao assunto apresentado. (thumbnail),(audiovisual) | ALTA |
-| RF-003 | O site deve permitir ao usuário visualizar parte do texto e ao clicar em “ler mais”, ser conduzido ao conteúdo integral | ALTA | 
-| RF-004 | O site deve oferecer um menu de navegação que permita ao usuário escolher um assunto de sua preferência. | MÉDIA | 
-| RF-005 | O site deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar textos, conteúdos e vídeos de seu interesse.   | ALTA | 
-| RF-006 | O site deve permitir visualizar as informações de contatos do mantenedor do site.  | BAIXA | 
-| RF-007 | O site deve permitir o compartilhamento dos conteúdos visualizados em plataformas de redes sociais.  | BAIXA | 
-| RF-008 | O site deve permitir que usuários possam comentar os conteúdos. | MÉDIA | 
-| RF-009 | O site deve exibir os comentários registrados juntamente com a publicação exibida. | BAIXA | 
-| RF-010 | O site deve filtrar os vídeos por ordem alfabética. | MÉDIA | 
-| RF-011 | O site deve orientar, ao fim de cada publicação que, caso o usuário não tenha conseguido amenizar/solucionar sua dificuldade, é recomendado que procure um especialista da área. | ALTA |
-
+| RF-002 | O site deve apresentar, para cada artigo e reportagem, uma imagem ou um vídeo correspondente ao assunto apresentado. (thumbnail),(audiovisual) | ALTA | 
+| RF-003 | O site deve oferecer um menu de navegação que permita ao usuário escolher um assunto de sua preferência. | MÉDIA | 
+| RF-004 | O site deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar textos, conteúdos e vídeos de seu interesse.  | ALTA |  
+| RF-005 | O site deve permitir visualizar as informações de contatos do mantenedor do site.  | BAIXA | 
+| RF-006 | O site deve permitir o compartilhamento dos conteúdos visualizados em plataformas de redes sociais. | BAIXA | 
+| RF-007 | O site deve permitir que usuários possam comentar os conteúdos. | MÉDIA | 
+| RF-008 | O site deve exibir os comentários registrados juntamente com a publicação exibida. | BAIXA | 
+| RF-009 | O site deve exibir artigos voltados a gerenciamento de rotina, exercicios de concentração e musicas que auxilia no foco. | MÉDIA |
 
 ### Requisitos não Funcionais
 
