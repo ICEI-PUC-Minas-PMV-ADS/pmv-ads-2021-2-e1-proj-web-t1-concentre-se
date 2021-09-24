@@ -1,14 +1,13 @@
 # Especificações do Projeto
 
- A escolha do referido problema foi definida por meio de entrevistas e estudos realizados pelos membros da 
-equipe. Os detalhes levantados nesse processo foram consolidados na forma de personas e histórias de usuários. 
+A escolha do referido problema foi definida por meio de entrevistas e estudos realizados pelos membros da equipe. Os detalhes levantados nesse processo foram consolidados na forma de personas e histórias de usuários. 
 
 ## Personas
 
-As personas levantadas durante o processo de entendimento do problema são apresentadas nas figuras que se seguem: 
+As personas foram baseadas no levantamento via Google Forms realizada pelo grupo e são apresentadas nas figuras que se seguem: 
  
  
- ![Persona 01](https://thumbs2.imgbox.com/e1/19/ygexfpp1_t.png)
+![Persona 01](https://thumbs2.imgbox.com/e1/19/ygexfpp1_t.png)
 
 ![Persona 02](https://thumbs2.imgbox.com/f3/e0/vjLAnJWd_t.png)
 
@@ -22,17 +21,17 @@ A partir da compreensão do cotidiano das personas identificadas para o projeto,
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-| Tomás Edson | Ler artigos recomendados e as últimas publicações .  | Para encontrar conteúdos atualizados sobre organização de rotinas . |
-| Tomás Edson | Gostaria de poder localizar conteúdos de sons que estimulem no foco. | Para me concentrar melhor nos estudos . |
-| Tomás Edson | Gostaria de poder entrar em contato com mantenedor do site | Para enviar um feedback. |
-|Geraldo José  | Ser mais produtivo nos pequenos intervalos que possuo para estudar.  | Para conciliar melhor meu tempo nas minhas tarefas.  |
-|Geraldo José  | Acessar videos e artigos que tenham breves imagens resumindo o conteúdo. | Para facilitar a compreensão do conteúdo. |
-|Geraldo José | Uma funcionalidade para pesquisar sobre conteúdo no qual eu busco. | Para ser mais objetiva. |
-|Larissa Alves   | Conseguir gerenciar a  minha rotina do Ensino Médio, conciliando-a com o vestibular. |Poder melhorar as minhas notas. |
-|Larissa Alves  | Um site onde posso escolher um tema da minha escolha.| Para localizar mais rápido certo conteúdo. |
-|Renata Barreto   | Entender o porquê do meu filho ter tanta dificuldade para se concentrar.  | Para ajudá-lo nas atividades escolares.  | 
-|Renata Barreto   | Comentar e compartilhar minhas experiências e dificuldades | Para contribuir na vida de outras pessoas e também aprender. | 
-|Renata Barreto   | Compartilhar, com outras mães, artigos de meu interesse. | Para ajudar outras mães com os mesmos problemas. |
+| Tomás Edson | Ler artigos recomendados e as últimas publicações .| Para encontrar conteúdos atualizados sobre organização de rotinas . |
+| Tomás Edson | Gostaria de poder localizar conteúdos de sons que estimulem no foco.| Para me concentrar melhor nos estudos .|
+| Tomás Edson | Gostaria de entrar em contato com os mantenedores do site | Para enviar um feedback.|
+|Geraldo José | Ser mais produtivo nos pequenos intervalos que possuo para estudar.| Para conciliar melhor meu tempo nas minhas tarefas.|
+|Geraldo José | Acessar videos e artigos que tenham breves imagens resumindo o conteúdo.| Para facilitar a compreensão do conteúdo.|
+|Geraldo José | Uma funcionalidade para pesquisar sobre conteúdo no qual eu busco.| Para ser mais objetiva.|
+|Larissa Alves| Conseguir gerenciar a  minha rotina do Ensino Médio, conciliando-a com o vestibular.|Poder melhorar as minhas notas.|
+|Larissa Alves| Um site onde posso escolher um tema da minha escolha.| Para localizar mais rápido certo conteúdo.|
+|Renata Barreto| Entender o porquê do meu filho ter tanta dificuldade para se concentrar.| Para ajudá-lo nas atividades escolares.| 
+|Renata Barreto| Comentar e compartilhar minhas experiências e dificuldades | Para contribuir na vida de outras pessoas e também aprender.| 
+|Renata Barreto| Compartilhar, com outras mães, artigos de meu interesse. | Para ajudar outras mães com os mesmos problemas.|
 ## Requisitos
 
 O escopo funcional do projeto é definido por meio dos requisitos funcionais que descrevem as possibilidades de interação dos usuários, bem como os requisitos não funcionais que descrevem os aspectos que o sistema deverá apresentar de maneira geral. Estes requisitos são apresentados abaixo
