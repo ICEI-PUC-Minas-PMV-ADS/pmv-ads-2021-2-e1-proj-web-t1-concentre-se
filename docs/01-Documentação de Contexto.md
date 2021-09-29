@@ -9,9 +9,7 @@ Muitos são os fatores que podem desencadear problemas de concentração. Destac
 
 ## Problema
 
-Diante do exposto, possibilitou-se constatar que inúmeras pessoas buscam aprimorar suas capacidades 
-cognitivas. Porém, crescentes relatos sociais apontam dificuldades para atingir tal finalidade, ainda 
-mais, em tempos de isolamento social. 
+A falta de concentração, que dificulta a realização de diversas tarefas no cotidiano. 
 
 ## Objetivos
 
