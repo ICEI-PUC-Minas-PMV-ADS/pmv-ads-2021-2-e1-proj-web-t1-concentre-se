@@ -26,21 +26,19 @@ desenvolvimento.
 
 A equipe está organizada da seguinte maneira:
 
-●	Scrum Master: Gabriel Cedro Anunziato
+●	*Scrum Master*:
+ Gabriel Cedro Anunziato
 
-●	Product Owner: Fernanda Araújo Macieira
+●	*Product Owner*:
+ Fernanda Araújo Macieira
 
-●	Equipe de Desenvolvimento:
+●	*Equipe de Desenvolvimento*:
+ Hector Florença da Silva Mendes
+ Roberta Coutinho Paes
+ Isabella Carolina de Almeida Siqueira Damião
 
-○	Hector Florença da Silva Mendes
-
-○	Roberta Coutinho Paes
-
-○	Isabella Carolina de Almeida Siqueira Damião
-
-●	Equipe de Design
-
-○	Helen Tito Gomes Belinassi
+●   *Equipe de Design* :
+ Helen Tito Gomes Belinassi
 
 Para organização e distribuição das tarefas do projeto, a equipe está utilizando o GitHub Projects estruturado com as seguintes listas: 
 
