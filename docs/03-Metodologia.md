@@ -1,29 +1,22 @@
-
 # Metodologia
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
+A metodologia contempla as definições de ferramental utilizado pela equipe tanto para a manutenção dos códigos e demais artefatos quanto para a organização do time na execução das tarefas do projeto.
 
-## Controle de Versão
+# Relação de Ambientes de Trabalho
 
-Bella  de versão adotada no projeto foi o [Git](https://git-scm.com/), sendo que o [Github](https://github.com)
-foi utilizado para hospedagem do repositório.
+Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue. 
 
-O projeto segue a seguinte convenção para o nome de branches:
+Ambiente / Plataforma / Link de Acesso 
+--------  ----------   -------------
+12333 / 23232323/ 232252656
+12554454544554545464 / 446454566 / 5656555665  
 
-- `main`: versão estável já testada do software
-- `unstable`: versão já testada do software, porém instável
-- `testing`: versão em testes do software
-- `dev`: versão de desenvolvimento do software
 
-Quanto à gerência de issues, o projeto adota a seguinte convenção para
-etiquetas:
 
-- `documentation`: melhorias ou acréscimos à documentação
-- `bug`: uma funcionalidade encontra-se com problemas
-- `enhancement`: uma funcionalidade precisa ser melhorada
-- `feature`: uma nova funcionalidade precisa ser introduzida
 
-Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
+
+
+
 
 > **Links Úteis**:
 > - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
