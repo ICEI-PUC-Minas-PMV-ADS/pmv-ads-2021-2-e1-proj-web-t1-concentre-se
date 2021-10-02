@@ -9,8 +9,9 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 | Ambiente | Plataforma | Link de Acesso |
 --------- | ---------- |  -------------  |
 Repositório de código fonte | GitHub | https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/teams/concentre-se/repositories   |
-12554454544554545464 | 446454566 | 5656555665 |
-
+Documentos do projeto | GitHub | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2021-2-e1-proj-web-t1-concentre-se/tree/main/docs |
+| Projeto de Interface e  Wireframes |          |
+|                  |                                  |
 
 
 
