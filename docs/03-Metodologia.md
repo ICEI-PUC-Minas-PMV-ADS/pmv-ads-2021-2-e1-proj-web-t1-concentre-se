@@ -46,6 +46,7 @@ A equipe está organizada da seguinte maneira:
 
  Helen Tito Gomes Belinassi
 
+# Organização #
 
 Para organização e distribuição das tarefas do projeto, a equipe está utilizando o GitHub Projects estruturado com as seguintes listas: 
 
