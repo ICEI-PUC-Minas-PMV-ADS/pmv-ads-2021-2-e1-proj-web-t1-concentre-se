@@ -46,7 +46,9 @@ A equipe está organizada da seguinte maneira:
 
  Helen Tito Gomes Belinassi
 
+
 Para organização e distribuição das tarefas do projeto, a equipe está utilizando o GitHub Projects estruturado com as seguintes listas: 
+
 
 ●	Backlog: recebe as tarefas a serem trabalhadas e representa o Product Backlog. Todas as atividades identificadas no decorrer do projeto também devem ser incorporadas a esta lista.
 
