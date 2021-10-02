@@ -46,7 +46,7 @@ A equipe está organizada da seguinte maneira:
 
  Helen Tito Gomes Belinassi
 
-# Organização #
+### *Organização* ###
 
 Para organização e distribuição das tarefas do projeto, a equipe está utilizando o GitHub Projects estruturado com as seguintes listas: 
 
@@ -63,3 +63,6 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 
 ●	**Locked**: Quando alguma coisa impede a conclusão da tarefa, ela é movida para esta lista juntamente com um comentário sobre o que está travando a tarefa.
 
+O quadro kanban do grupo no GitHub Projects está disponível através da URL (https://github.com) e é apresentado, no estado atual, na Figura 1. A definição desta estrutura baseou-se na proposta feita por Littlefield (2016).
+
+![kanban](https://thumbs2.imgbox.com/2d/28/pVkVMZNu_t.png)
