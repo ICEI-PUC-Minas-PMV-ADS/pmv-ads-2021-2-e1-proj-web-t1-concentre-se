@@ -68,7 +68,9 @@ O quadro kanban do grupo no GitHub Projects está disponível através da URL (h
 
 
 
-![ Kanban 01](https://thumbs2.imgbox.com/2d/28/pVkVMZNu_t.png) .
+![ Kanban 01](https://thumbs2.imgbox.com/2d/28/pVkVMZNu_t.png) 
+
+.
 
 
 
