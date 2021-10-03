@@ -24,7 +24,7 @@ A tela do sistema abaixo apresenta uma estrutura comum, que é retratada na Figu
 
 ●	Rodapé – apresenta informações dos créditos aos desenvolvedores do site.
 
-Figura 2
+![Fluxo 01](https://thumbs2.imgbox.com/30/ee/BYhZy8fx_t.png)
 
 ### Tela - Home-Page ### 
 
@@ -38,30 +38,34 @@ O bloco do home-page traz três elementos distintos:
 
 ●	Componente de Conteúdos onde possui uma lista que ao selecionar um item, especificamente, dá acesso à página do conteúdo.
 
-figura 3
+![Fluxo 01](https://thumbs2.imgbox.com/06/e5/OUT4ulFv_t.png)
 
 ### Tela – Listas de Conteúdos ###
 
 A tela de conteúdos de categoria apresenta, no Bloco de Conteúdo, as notícias referentes a uma categoria específica, escolhida pelo usuário. O Bloco de Barra Lateral apresenta os mesmos elementos da Home-Page. 
 
+
+![Fluxo 01](https://thumbs2.imgbox.com/ff/aa/7sMR0TTq_t.png)
+
 ### Tela - Resultado de Pesquisa ###
 
 Assim que o usuário informa um tópico de pesquisa, ao clicar no botão OK, ele é direcionado para uma tela, a qual forma uma lista com notícias associadas ao tópico informado. Este resultado é apresentado na Figura 6 a seguir.
 
-Firgura 4
+
+![Fluxo 01](https://thumbs2.imgbox.com/ab/6b/GZibSldb_t.png)
 
 ### Tela - Leitura Artigos ###
 
 A tela de Leitura de Artigos apresenta, no Bloco de Conteúdo, um assunto específico. O Bloco de Barra Lateral apresenta os mesmos elementos da Home-Page. 
 
-figura 5
 
+![Fluxo 01](https://thumbs2.imgbox.com/d3/d9/OSwXxQas_t.png)
 
 ### Tela - Comentários ###
 
 Na tela que permite ao usuário comentar em uma notícia, deve-se informar o nome e o comentário em questão. Esta tela é exibida na forma de uma janela modal. Em seguida, deve-se confirmar ou cancelar a finalização do comentário. Na sequência, a tela é fechada, voltando para o ambiente anterior.
 
-figura 6
+![Fluxo 01](https://thumbs2.imgbox.com/d3/d9/OSwXxQas_t.png)
 
 ### Tela – Fale Conosco ###
 
