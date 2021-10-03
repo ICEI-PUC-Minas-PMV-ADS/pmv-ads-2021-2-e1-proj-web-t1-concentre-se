@@ -67,8 +67,6 @@ O quadro kanban do grupo no GitHub Projects está disponível através da URL (h
 
 ![ Kaban 03](https://thumbs2.imgbox.com/2d/28/pVkVMZNu_t.png)
 
-Figura 1 - Tela do kanban utilizada pelo grupo.
-
 A tarefas são, ainda, etiquetadas em função da natureza da atividade e seguem o seguinte esquema de cores/categorias:
 
 ●	Documentação
