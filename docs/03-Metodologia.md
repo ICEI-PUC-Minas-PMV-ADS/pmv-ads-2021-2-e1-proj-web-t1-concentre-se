@@ -66,6 +66,7 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 O quadro kanban do grupo no GitHub Projects está disponível através da URL (https://github.com) e é apresentado, no estado atual, na Figura 1. A definição desta estrutura baseou-se na proposta feita por Littlefield (2016).
 
 ![ Kaban 03](https://thumbs2.imgbox.com/2d/28/pVkVMZNu_t.png)
+Figura 1 - Tela do kanban utilizada pelo grupo
 
 A tarefas são, ainda, etiquetadas em função da natureza da atividade e seguem o seguinte esquema de cores/categorias:
 
