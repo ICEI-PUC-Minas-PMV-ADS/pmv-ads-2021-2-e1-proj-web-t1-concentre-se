@@ -4,7 +4,7 @@ Nesta seção são apresentados os detalhes técnicos da solução criada pela e
 
  
 
-Diagrama de Componentes 
+### Diagrama de Componentes ###
 
 Os componentes que fazem parte da solução são apresentados na Figura que se segue.
 
@@ -15,17 +15,17 @@ Figura 10 - Arquitetura da Solução
 
 A solução implementada conta com os seguintes módulos: 
 
-*Navegador* - Interface básica do sistema  
+>**Navegador** - Interface básica do sistema  
 
-*Páginas Web* - Conjunto de arquivos HTML, CSS, JavaScript e imagens que implementam as funcionalidades do sistema. 
+>**Páginas Web** - Conjunto de arquivos HTML, CSS, JavaScript e imagens que implementam as funcionalidades do sistema. 
 
-*Local Storage* - armazenamento mantido no Navegador, onde são implementados bancos de dados baseados em JSON. São eles:  
+>**Local Storage** - armazenamento mantido no Navegador, onde são implementados bancos de dados baseados em JSON. São eles:  
 
-*Comentários* - registro de opiniões dos usuários sobre os artigos 
+>**Comentários** - registro de opiniões dos usuários sobre os artigos 
 
-*Hospedagem* - local na Internet onde as páginas são mantidas e acessadas pelo navegador.  
+>**Hospedagem** - local na Internet onde as páginas são mantidas e acessadas pelo navegador.  
 
-#### Hospedagem ####
+### Hospedagem ###
 
 O site utiliza a plataforma do Github Pages como ambiente de hospedagem do site do projeto. O site é mantido no ambiente da URL:  
 
