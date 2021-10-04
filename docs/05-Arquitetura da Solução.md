@@ -9,8 +9,7 @@ Nesta seção são apresentados os detalhes técnicos da solução criada pela e
 Os componentes que fazem parte da solução são apresentados na Figura que se segue.
 
 
-Figura 10 - Arquitetura da Solução 
-
+![Fluxo 01](https://thumbs2.imgbox.com/18/7a/dNrMROCZ_t.jpeg)
  
 
 A solução implementada conta com os seguintes módulos: 
