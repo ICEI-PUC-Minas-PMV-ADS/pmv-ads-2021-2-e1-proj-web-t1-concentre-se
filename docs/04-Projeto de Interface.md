@@ -8,7 +8,8 @@ Dentre as preocupações para a montagem da interface do sistema, estamos estabe
 O diagrama apresentado na Figura 2 mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de Wireframes que se segue. Para visualizar o wireframe interativo, acesse o ambiente MarvelApp do projeto.
 
 ![Fluxo 01](https://thumbs2.imgbox.com/4d/36/ci6kqxci_t.jpeg)
-> Figure 02 
+<br/>
+Figura 3 - Fluxo de telas dos usuários
 
 ## Wireframes
 
@@ -21,6 +22,8 @@ A tela do sistema abaixo apresenta uma estrutura comum, que é retratada na Figu
 ●	Rodapé – apresenta informações dos créditos aos desenvolvedores do site.
 
 ![Fluxo 01](https://thumbs2.imgbox.com/30/ee/BYhZy8fx_t.png)
+<br/>
+Figura 4 - Estrutura padrão do site
 
 
 ### Tela - Home-Page ### 
@@ -36,6 +39,8 @@ O bloco do home-page traz três elementos distintos:
 ●	Componente de Conteúdos onde possui uma lista que ao selecionar um item, especificamente, dá acesso à página do conteúdo.
 
 ![Fluxo 01](https://thumbs2.imgbox.com/1b/8c/Ng1jX7qc_t.png)
+<br/>
+Figura 5 - Tela Inicial
 
 ### Tela – Listas de Conteúdos ###
 
@@ -43,6 +48,8 @@ A tela de conteúdos de categoria apresenta, no Bloco de Conteúdo, as notícias
 
 
 ![Fluxo 01](https://thumbs2.imgbox.com/c3/74/yK9br6sh_t.png)
+<br/>
+Figura 6 - Tela de lista de conteúdos
 
 ### Tela - Resultado de Pesquisa ###
 
@@ -50,6 +57,8 @@ Assim que o usuário informa um tópico de pesquisa, ao clicar no botão OK, ele
 
 
 ![Fluxo 01](https://thumbs2.imgbox.com/94/c0/sJa0lJlR_t.png)
+<br/>
+Figura 7 - Tela de Resultados de Pesquisa
 
 ### Tela - Leitura Artigos ###
 
@@ -57,12 +66,16 @@ A tela de Leitura de Artigos apresenta, no Bloco de Conteúdo, um assunto espec�
 
 
 ![Fluxo 01](https://thumbs2.imgbox.com/4b/fb/1V2bPALn_t.png)
+<br/>
+Figura 8 - Tela de Leitura do Artigo e comentários
 
 ### Tela - Comentários ###
 
 Na tela que permite ao usuário comentar em uma notícia, deve-se informar o nome e o comentário em questão. Esta tela é exibida na forma de uma janela modal. Em seguida, deve-se confirmar ou cancelar a finalização do comentário. Na sequência, a tela é fechada, voltando para o ambiente anterior.
 
 ![Fluxo 01](https://thumbs2.imgbox.com/60/98/PH35Wn6i_t.png)
+<br/>
+Figura 9 - Tela de inclusão de comentários
 
 ### Tela – Fale Conosco ###
 
@@ -70,6 +83,8 @@ Já esta tela, permite que o usuário possa se conectar com os desenvolvedores d
 
 
 ![Fluxo 01](https://thumbs2.imgbox.com/5c/16/1f0KJRvC_t.png)
+<br/>
+Figura 10- Tela Fale Conosco
 
 
 
