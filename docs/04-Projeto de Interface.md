@@ -9,6 +9,7 @@ O diagrama apresentado na Figura 2 mostra o fluxo de interação do usuário pel
 
 ![Fluxo 01](https://thumbs2.imgbox.com/4d/36/ci6kqxci_t.jpeg)
 
+Figure 02 
 
 ## Wireframes
 
