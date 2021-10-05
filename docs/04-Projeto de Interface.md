@@ -70,6 +70,5 @@ Já esta tela, permite que o usuário possa se conectar com os desenvolvedores d
 
 
 ![Fluxo 01](https://thumbs2.imgbox.com/5c/16/1f0KJRvC_t.png)
-.
 
 
