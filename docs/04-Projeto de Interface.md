@@ -10,7 +10,6 @@ O diagrama apresentado na Figura 2 mostra o fluxo de interação do usuário pel
 ![Fluxo 01](https://thumbs2.imgbox.com/4d/36/ci6kqxci_t.jpeg)
 
 
-
 ## Wireframes
 
 A tela do sistema abaixo apresenta uma estrutura comum, que é retratada na Figura 3. Nela, existem 3 grandes blocos, descritos a seguir. São eles:

@@ -22,6 +22,8 @@ A solução implementada conta com os seguintes módulos:
 
 >**Comentários** - registro de opiniões dos usuários sobre os artigos 
 
+>**API** - compartilhamento de conteúdos do site
+
 >**Hospedagem** - local na Internet onde as páginas são mantidas e acessadas pelo navegador.  
 
 ### Hospedagem ###
