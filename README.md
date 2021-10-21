@@ -9,13 +9,13 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 ## Integrantes
 
-* Gabriel Cedro Anunziato
 * Fernanda Araujo Macieira
+* Gabriel Cedro Anunziato
 * Hector Florença da Silva Mendes
-* Roberta Coutinho Paes
+* Helen Tito Gomes Belinassi
 * Isabella Carolina de Almeida Siqueira Damião
 * Luiz Guilherme Martins Franchim
-* Helen Tito Gomes Belinassi
+
 ## Orientador
 
 * Joyce Christina de Paiva Carvalho
