@@ -13,7 +13,7 @@ A falta de concentração, que dificulta a realização de diversas tarefas no c
 
 ## Objetivos
 
-Conforme o problema apresentado anteriormente, este projeto tem por objetivo geral, criar um site que dê o auxílio necessário aos indivíduos para que desenvolvam sua capacidade de concentração. A fim de promover um melhor desempenho nos processos de absorção de informações, produção de ideias e transmissão de conhecimentos. Possibilitando, assim, que os participantes da plataforma tenham melhor qualidade de vida, uma vez que, tenham desempenhado suas atividades de forma mais eficaz e menos frustrante.  
+Este projeto tem por objetivo geral criar um site que dê o auxílio necessário aos indivíduos para que desenvolvam sua capacidade de concentração. Neste sentido, visa  promover um melhor desempenho nos processos de absorção de informações, produção de ideias e transmissão de conhecimentos. Possibilitando, assim, que os participantes da plataforma tenham melhor qualidade de vida, uma vez que, tenham desempenhado suas atividades de forma mais eficaz e menos frustrante.  
  
 Como objetivos específicos, podemos ressaltar: 
 ●	Fornecer matérias esclarecedoras e soluções que possam combater as dificuldades de concentração de forma mais eficiente; 
