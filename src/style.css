@@ -69,10 +69,11 @@ nav a:hover{
     font-size: 30px;
     font-family: sans-serif, Arial, Helvetica, ;
     text-transform:uppercase;
+    color:#0c2736;
 }
 #button-buscar input{
-    width: 300px;
-    height: 25px;
+    width: 420px;
+    height: 40px;
     border-radius: 25px;
     border-style: none;
     margin-top: 25px;
@@ -86,7 +87,6 @@ nav a:hover{
   margin-top: 25px;
   margin-right: 60px;
   z-index: 1;
-
 } */
 #geral {
     display: flex;
