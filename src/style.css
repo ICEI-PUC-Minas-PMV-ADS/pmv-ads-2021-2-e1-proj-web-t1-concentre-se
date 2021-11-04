@@ -157,3 +157,21 @@ footer p {
     align-items: center;
     background-color: #f4f4f4;
 }
+
+/* Media Query */
+
+@media only screen and (max-width: 600px) {
+    .container{
+        flex-wrap: wrap;
+        width: 370px;
+    }
+
+    .titulo-banner {
+        font-size: 20px;
+    }
+
+    #button-buscar a input {
+        width: 300px;
+    }
+
+  }
