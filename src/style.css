@@ -199,8 +199,8 @@ footer p {
     margin-bottom: 35px;
     margin-top:15px;
     color:#0c2736;
- 
-  }
+    font-family: sans-serif;
+}
 .article-content{
     font-size:20px;
     text-align:unset;
