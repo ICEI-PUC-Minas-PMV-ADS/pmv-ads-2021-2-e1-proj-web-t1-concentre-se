@@ -173,5 +173,47 @@ footer p {
     #button-buscar a input {
         width: 300px;
     }
-
+}
+.img_artigo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+.img_artigo img{
+    width: 730px;
+    height: auto;
+}
+.conteudo-artigos h1 img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#artigos{
+    margin: 0 0 0;
+    padding: 0;
+    border: 0;
+}
+#article7-title {
+    font-size: 48px;
+    margin-bottom: 35px;
+    margin-top:15px;
+    color:#0c2736;
+ 
   }
+.article-content{
+    font-size:20px;
+    text-align:unset;
+}
+.article-content h2{
+    color:#0c2736 ;
+}
+.fonte-artigo{
+    text-align:end;
+    color: #c2c2c2;
+    padding: 1px;
+    margin-bottom: 10px;
+}
+#OMS:hover{
+    color: lightcoral;
+}
