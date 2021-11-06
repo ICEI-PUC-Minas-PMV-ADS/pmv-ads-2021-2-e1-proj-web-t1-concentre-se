@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: sans-serif, Arial, Helvetica, ;
+    font-family: sans-serif;
 }
 /*Navegação*/
 header{
@@ -20,7 +20,7 @@ header{
     align-items: center;      
 }
 .logo a img {
-    width:200px;
+    width:225px;
     height:auto;
 }
 .menu{
@@ -109,6 +109,7 @@ nav a:hover{
     display:flex;
     flex-wrap: wrap;
 }
+/*Artigos - homepage*/
 article {
     flex:1;
     min-width: 300px;
@@ -173,5 +174,55 @@ footer p {
     #button-buscar a input {
         width: 300px;
     }
+}
 
-  }
+/*Artigos- pagina de artigos*/
+
+.img_artigo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+.img_artigo img{
+    width:900px;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 7px;
+}
+.conteudo-artigos h1 img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+#artigos{
+    margin: 0 0 0;
+    padding: 0;
+    border: 0;
+}
+#article7-title {
+    font-size: 35px;
+    margin-bottom: 35px;
+    margin-top:15px;
+    color:#0c2736;
+    font-family: sans-serif;
+}
+.article-content{
+    font-size:20px;
+    font-family: sans-serif;
+    line-height:29px;
+    color: rgba(62, 96, 119, 0.7);
+}
+.article-content h2{
+    color:#0c2736 ;
+}
+.fonte-artigo{
+    text-align:end;
+    color: #c2c2c2;
+    padding: 1px;
+    margin-bottom: 10px;
+}
+#OMS:hover{
+    color: lightcoral;
+}
