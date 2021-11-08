@@ -190,6 +190,20 @@ footer p {
     margin-top: 10px;
     border-radius: 7px;
 }
+
+.img_artigo-9 {
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 7px;
+}
+
+.img_artigo-9 img {
+    width: 800px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 7px;
+}
+
 .conteudo-artigos h1 img{
     display: flex;
     justify-content: center;
@@ -201,7 +215,7 @@ footer p {
     padding: 0;
     border: 0;
 }
-#article7-title {
+#article7-title, #article-9-title {
     font-size: 35px;
     margin-bottom: 35px;
     margin-top:15px;
@@ -216,6 +230,10 @@ footer p {
 }
 .article-content h2{
     color:#0c2736 ;
+}
+.article-9-content p{
+    margin-top: 15px;
+    margin-bottom: 35px;
 }
 .fonte-artigo{
     text-align:end;
