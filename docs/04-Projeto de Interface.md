@@ -36,20 +36,19 @@ O bloco do home-page traz três elementos distintos:
 
 ●	Componente de Fale Conosco que leva o usuário para a tela de contatos;
 
-●	Componente de Conteúdos onde possui uma lista que ao selecionar um item, especificamente, dá acesso à página do conteúdo.
+●	<!--Componente de Conteúdos onde possui uma lista que ao selecionar um item, especificamente, dá acesso à página do conteúdo.-->
 
 ![Fluxo 01](https://thumbs2.imgbox.com/1b/8c/Ng1jX7qc_t.png)
 <br/>
 Figura 5 - Tela Inicial
 
-### Tela – Listas de Conteúdos ###
+### Tela de Conteúdos ###
 
-O menu contém uma lista de conteúdos com categorias específicas, à escolha do usuário. O Bloco também apresenta os mesmos elementos fixos (cabeçalho e rodapé). 
+<!--O menu contém uma lista de conteúdos com categorias específicas, à escolha do usuário. O Bloco também apresenta os mesmos elementos fixos (cabeçalho e rodapé). -->
 
-
-![Fluxo 01](https://thumbs2.imgbox.com/c3/74/yK9br6sh_t.png)
+![Fluxo 01](https://thumbs2.imgbox.com/1c/93/1tWp3kLd_t.png)
 <br/>
-Figura 6 - Tela de lista de conteúdos
+Figura 6 - Lista de conteúdos
 
 ### Tela - Resultado de Pesquisa ###
 
