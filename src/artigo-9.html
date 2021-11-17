@@ -8,16 +8,26 @@
     <title>Concentre-se</title>
 </head>
 <body>
-    <header>
+    <!-- 15/11 criando a id button-buscar-nav, nav com id nav-mobile, button com class btn-mobile e ul com class-->
+    <header class="header-mobile">
         <div class="container">
             <div class="logo">
                 <a href="index.html" class="img_logo" target="_blank">
                     <img src="images/logo3.png">
                 </a>     
             </div>
+            <!--15/11-->
+            <div id="button-buscar-nav">
+                <!-- <img src="images/busca-logo.png" alt=""/> -->
+                <a><input type="text" placeholder="Buscar..."></a>     
+            </div>
+            <!--15/11-->
             <div class="menu">
-                <nav>
-                    <ul>
+                <nav id="nav-mobile">
+                    <button id="btn-mobile">
+                        <span id="hamburguer"></span>
+                    </button>
+                    <ul class="menu-mobile">
                         <li><a href="index.html" target="_blank">Início</a></li>
                         <li><a href="conteudos.html">Conteúdos</a></li>
                         <li><a href="faleconosco.html" target="_blank">Fale conosco</a></li>
@@ -34,7 +44,7 @@
                         <img src="images/studying.jpg">
                     </div>
                     <h1 id="article-title">10 dicas para melhorar a concentração nos estudos</h1>
-                    <div class="article-content article-9-content">
+                    <div class="article-content">
                         <p>
                             Estudar nem sempre é uma das melhores atividades que precisamos realizar. Além disso, o nosso cérebro parece estar treinado a nos boicotar: ele coopera na concentração em um jogo virtual, por exemplo, mas se distrai facilmente na hora de encarar um livro de estudos para uma prova.
                         </p>
@@ -113,5 +123,7 @@
     <footer>
         <p>Copyright &COPY; Grupo2 2021</p>       
     </footer>
+    <!-- adicionando javascript para o menu hamburguer -->
+    <script type="text/javascript" src="main.js"></script>
 </body>
 </html>

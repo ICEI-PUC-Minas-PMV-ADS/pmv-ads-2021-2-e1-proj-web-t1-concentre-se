@@ -23,6 +23,25 @@ header{
     width:225px;
     height:auto;
 }
+
+/* 15/11 colocando o buscar no nav e o desaparecendo o botão hamburguer do desktop*/
+#button-buscar-nav input{
+    width: 150px;
+    height: 25px;
+    border-radius: 25px;
+    border-style: solid;
+    margin-top: 15px;
+    margin-left: 40px;
+    padding: 0 15px;
+    text-transform: uppercase;
+
+}
+
+#btn-mobile {
+    display: none;
+}
+
+/* 15/11 */
 .menu{
     display: flex;
     align-items: center;
@@ -156,23 +175,6 @@ footer p {
     justify-content:center; 
     align-items: center;
     background-color: #f4f4f4;
-}
-
-/* Media Query */
-
-@media only screen and (max-width: 600px) {
-    .container{
-        flex-wrap: wrap;
-        width: 370px;
-    }
-
-    .titulo-banner {
-        font-size: 20px;
-    }
-
-    #button-buscar a input {
-        width: 300px;
-    }
 }
 
 /*Artigos- pagina de artigos*/
@@ -357,4 +359,132 @@ background-color: #EEEFFB;
 #h3Artigo10 {
     font-size: 25px;
     color:#0c2736;
+}
+
+@media only screen and (max-width: 600px) {
+    .container{
+        flex-wrap: wrap;
+        /* 15/11 */
+        width: 370px;
+        /* 15/11 */
+    }
+    /* 15/11 diminuindo tamanho logo, criação do menu hamburguer*/
+    .logo a img {
+        width:140px;
+        margin-left: -20px;
+        height:auto;
+    }
+
+    .menu-mobile {
+        display: block;
+        position: absolute;
+        width: 100%;
+        top: 60px;
+        right: 0px;
+        background: #e7e7e7;
+        height: 0px;
+        transition: .6s;
+        visibility: hidden;
+        overflow-y:hidden;
+
+    }
+
+    nav.active .menu-mobile {
+        height: 155px;
+        visibility: visible;
+
+    }
+
+    .menu-mobile a {
+        border-bottom: 2px solid #fff;
+        border-radius: 0px;
+        text-align: center;
+        margin-right: 20px;
+
+    }
+
+    #btn-mobile {
+        display: flex;
+        padding: 8px 16px;
+        font-size: 15px;
+        border: none;
+        background: none;
+        cursor: pointer;
+        gap: 8px;
+    }
+
+    #hamburguer {
+        display: block;
+        border-top: 2px solid;
+        width: 20px;
+        margin-right: -20px;
+    }
+    #hamburguer::before, #hamburguer::after {
+        content: '';
+        display: block;
+        width: 20px;
+        height: 2px;
+        background: black;
+        margin-top: 5px;
+        transition: .3s;
+        position: relative;
+    }
+    nav.active #hamburguer{
+        border-top-color: transparent;
+
+    }
+    nav.active #hamburguer::before {
+        transform: rotate(45deg);
+    }
+
+    nav.active #hamburguer::after {
+        transform: rotate(-45deg);
+        top: -7px;
+    }
+    /* 15/11 */
+
+
+    /* 15/11 colocando o buscar no nav das outras páginas*/
+    #button-buscar-nav input {
+        width: 120px;
+        text-align: center;
+        margin-left: 0px;
+    }
+    /* 15/11 */
+
+    .titulo-banner {
+        font-size: 20px;
+        /* 15/11 alinhamento do título */
+        text-align: center;
+        /* 15/11 */
+    }
+
+    #button-buscar a input {
+        width: 300px;
+    }
+
+    /* 17/11 alinhando textos, imagem, margem */
+    div.post_img {
+        width: 350px;
+        
+       
+    }
+    div.post_img img{
+        width: 358px;
+        
+    }
+    .img_artigo img {
+        width: 400px;
+        margin-top: 10px;
+    }
+    .article-content h2 {
+        /* text-align:justify; */
+        margin: 20px 0;
+    }
+
+    .article-content p {
+        text-align:justify;
+        margin-top: 10px;
+    }
+    
 }
