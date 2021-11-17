@@ -142,8 +142,7 @@ article .post_resume{
     line-height: 20px;
     font-size: 16px;
     margin-bottom: 30px;
-    padding: 0 5px;
-    
+    padding: 0 5px;   
 }
 .leia_mais{
     text-decoration:underline;
@@ -202,7 +201,7 @@ footer p {
     border: 0;
 }
 #article-title  {
-    font-size: 35px;
+    font-size: 40px;
     margin-bottom: 35px;
     margin-top:15px;
     color:#0c2736;
@@ -227,8 +226,9 @@ footer p {
     padding: 1px;
     margin-bottom: 10px;
 }
-#OMS:hover{
+#hover:hover{
     color: lightcoral;
+    
 }
 .img_artigo-8 img{
     width:600px;
@@ -242,7 +242,6 @@ footer p {
     align-items: center;
     padding: 30px;
 }
-
 .img-artigo-4{
     height: 400px;
     width: 700px;
@@ -265,7 +264,6 @@ footer p {
     font-size: 1.2em;
     color: gray;
 }
-
 h2{
 font-size: 1.3em;
 text-align: justify;
@@ -285,7 +283,6 @@ h3{
     font-size: 1.3em;
     text-align: justify;
 }
-
 blockquote{
 font-size: 1.2em;
 font-style: italic;
@@ -333,7 +330,6 @@ background-color: #EEEFFB;
     display: block;
     border-radius: 1%;
 }
-
 .article-title15{
     margin-top:25px;
     margin-bottom: 15px;
@@ -342,7 +338,6 @@ background-color: #EEEFFB;
     padding: 0 5px;
     text-align: center;
 }
-
 .img-artigo-15{
     height: 400px;
     width: 700px;
@@ -350,4 +345,16 @@ background-color: #EEEFFB;
     margin-right: auto;
     display: block;
     border-radius: 1%;
+}
+#tab,
+#tab2{
+    margin-left: 35px;
+    font-style: italic;
+}
+#tab2{
+    text-align: center
+}
+#h3Artigo10 {
+    font-size: 25px;
+    color:#0c2736;
 }
