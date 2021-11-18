@@ -13,11 +13,11 @@ header{
 .container {
     display: flex;
     justify-content: space-between;
-    width: 960px;      
+    width: 960px;
 }
 .logo{
     display: flex;
-    align-items: center;      
+    align-items: center;
 }
 .logo a img {
     width:225px;
@@ -44,11 +44,11 @@ nav a{
     color: black;
     margin-left: 21px;
     border-radius: 24px;
-    
+
 }
 nav a:hover{
     color:#fff;
-    background-color:#F8941D;  
+    background-color:#F8941D;
 }
 /*Section Banner*/
 #banner{
@@ -63,7 +63,7 @@ nav a:hover{
     flex-direction: column;
     display: flex;
     align-items: center;
-    justify-content: center;  
+    justify-content: center;
 }
 .titulo-banner{
     font-size: 30px;
@@ -96,7 +96,7 @@ nav a:hover{
     flex:2;
 }
 #geral article{
-    flex:1;   
+    flex:1;
 }
 .conteudo_title{
     margin-top: 25px;
@@ -114,9 +114,9 @@ article {
     flex:1;
     min-width: 300px;
     margin-top: 20px;
-    margin-right: 20px; 
+    margin-right: 20px;
     border: rgb(17, 17, 17, 0.1 ) solid;
-    border-radius: 5px;  
+    border-radius: 5px;
 }
 article a {
     text-decoration:none;
@@ -125,7 +125,7 @@ article .post_img img{
     margin-top: 10px;
     width: 290px;
     height: auto;
-    padding: 0 5px; 
+    padding: 0 5px;
 }
 .margin {
     margin-bottom: 10px;
@@ -142,7 +142,7 @@ article .post_resume{
     line-height: 20px;
     font-size: 16px;
     margin-bottom: 30px;
-    padding: 0 5px;   
+    padding: 0 5px;
 }
 .leia_mais{
     text-decoration:underline;
@@ -153,7 +153,7 @@ footer p {
     height:40px;
     display: flex;
     flex:1;
-    justify-content:center; 
+    justify-content:center;
     align-items: center;
     background-color: #f4f4f4;
 }
@@ -228,7 +228,7 @@ footer p {
 }
 #hover:hover{
     color: lightcoral;
-    
+
 }
 .img_artigo-8 img{
     width:600px;
@@ -321,7 +321,7 @@ background-color: #EEEFFB;
     padding: 0 5px;
     text-align: center;
 }
-    
+
 .img-artigo-14{
     height: 400px;
     width: 700px;
@@ -357,4 +357,37 @@ background-color: #EEEFFB;
 #h3Artigo10 {
     font-size: 25px;
     color:#0c2736;
+}
+
+#myInput {
+  background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+  background-position: 10px 12px; /* Position the search icon */
+  background-repeat: no-repeat; /* Do not repeat the icon image */
+  width: 100%; /* Full-width */
+  font-size: 16px; /* Increase font-size */
+  padding: 12px 20px 12px 40px; /* Add some padding */
+  border: 1px solid #ddd; /* Add a grey border */
+  margin-bottom: 12px; /* Add some space below the input */
+}
+
+#myUL {
+  /* Remove default list styling */
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myUL li a {
+  border: 1px solid #ddd; /* Add a border to all links */
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6; /* Grey background color */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove default text underline */
+  font-size: 18px; /* Increase the font-size */
+  color: black; /* Add a black text color */
+  display: block; /* Make it into a block element to fill the whole list */
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: #eee; /* Add a hover effect to all links, except for headers */
 }
