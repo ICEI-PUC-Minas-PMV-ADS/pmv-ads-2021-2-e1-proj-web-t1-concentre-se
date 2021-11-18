@@ -17,7 +17,8 @@ header{
 }
 .logo{
     display: flex;
-    align-items: center;      
+    align-items: center;
+    margin-top: 9px;      
 }
 .logo a img {
     width:225px;
@@ -26,14 +27,19 @@ header{
 
 /* 15/11 colocando o buscar no nav e o desaparecendo o botão hamburguer do desktop*/
 #button-buscar-nav input{
-    width: 150px;
-    height: 25px;
-    border-radius: 25px;
+    width: 155px;
+    height: 40px;
+    border-radius: 24px;
+    border-color:#c2c2c2;
     border-style: solid;
-    margin-top: 15px;
+    margin-top: 9px;
     margin-left: 40px;
     padding: 0 15px;
     text-transform: uppercase;
+    align-items: center;
+}
+#button-buscar-nav input:hover{
+    border-color:#F8941D
 
 }
 
@@ -62,12 +68,11 @@ nav a{
     text-transform: uppercase;
     color: black;
     margin-left: 21px;
-    border-radius: 24px;
-    
+    border-radius: 24px;  
 }
 nav a:hover{
     color:#fff;
-    background-color:#F8941D;  
+    background-color:#F8941D;
 }
 /*Section Banner*/
 #banner{
@@ -178,7 +183,6 @@ footer p {
 }
 
 /*Artigos- pagina de artigos*/
-
 .img_artigo {
     display: flex;
     flex-direction: column;
@@ -367,12 +371,14 @@ background-color: #EEEFFB;
         /* 15/11 */
         width: 370px;
         /* 15/11 */
+        align-items: center;
     }
     /* 15/11 diminuindo tamanho logo, criação do menu hamburguer*/
     .logo a img {
-        width:140px;
+        width:155px;
         margin-left: -20px;
         height:auto;
+        margin-top:1px;
     }
 
     .menu-mobile {
@@ -386,11 +392,10 @@ background-color: #EEEFFB;
         transition: .6s;
         visibility: hidden;
         overflow-y:hidden;
-
     }
 
     nav.active .menu-mobile {
-        height: 155px;
+        height: 168px;
         visibility: visible;
 
     }
@@ -410,7 +415,7 @@ background-color: #EEEFFB;
         border: none;
         background: none;
         cursor: pointer;
-        gap: 8px;
+        gap: 8px;        
     }
 
     #hamburguer {
@@ -424,11 +429,13 @@ background-color: #EEEFFB;
         display: block;
         width: 20px;
         height: 2px;
-        background: black;
+        background-color:black;
         margin-top: 5px;
         transition: .3s;
         position: relative;
+        align-items: center;
     }
+    
     nav.active #hamburguer{
         border-top-color: transparent;
 
@@ -443,12 +450,13 @@ background-color: #EEEFFB;
     }
     /* 15/11 */
 
-
     /* 15/11 colocando o buscar no nav das outras páginas*/
     #button-buscar-nav input {
         width: 120px;
+        height: 25px;
         text-align: center;
         margin-left: 0px;
+        align-items: center;  
     }
     /* 15/11 */
 
@@ -466,8 +474,7 @@ background-color: #EEEFFB;
     /* 17/11 alinhando textos, imagem, margem */
     div.post_img {
         width: 350px;
-        
-       
+
     }
     div.post_img img{
         width: 358px;
