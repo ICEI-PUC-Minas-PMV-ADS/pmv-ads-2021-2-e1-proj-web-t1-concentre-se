@@ -17,12 +17,37 @@ header{
 }
 .logo{
     display: flex;
-    align-items: center;      
+    align-items: center;
+    margin-top: 9px;      
 }
 .logo a img {
     width:225px;
     height:auto;
 }
+
+/* 15/11 colocando o buscar no nav e o desaparecendo o botão hamburguer do desktop*/
+#button-buscar-nav input{
+    width: 155px;
+    height: 40px;
+    border-radius: 24px;
+    border-color:#c2c2c2;
+    border-style: solid;
+    margin-top: 9px;
+    margin-left: 40px;
+    padding: 0 15px;
+    text-transform: uppercase;
+    align-items: center;
+}
+#button-buscar-nav input:hover{
+    border-color:#F8941D
+
+}
+
+#btn-mobile {
+    display: none;
+}
+
+/* 15/11 */
 .menu{
     display: flex;
     align-items: center;
@@ -43,12 +68,11 @@ nav a{
     text-transform: uppercase;
     color: black;
     margin-left: 21px;
-    border-radius: 24px;
-    
+    border-radius: 24px;  
 }
 nav a:hover{
     color:#fff;
-    background-color:#F8941D;  
+    background-color:#F8941D;
 }
 /*Section Banner*/
 #banner{
@@ -142,8 +166,7 @@ article .post_resume{
     line-height: 20px;
     font-size: 16px;
     margin-bottom: 30px;
-    padding: 0 5px;
-    
+    padding: 0 5px;   
 }
 .leia_mais{
     text-decoration:underline;
@@ -159,25 +182,7 @@ footer p {
     background-color: #f4f4f4;
 }
 
-/* Media Query */
-
-@media only screen and (max-width: 600px) {
-    .container{
-        flex-wrap: wrap;
-        width: 370px;
-    }
-
-    .titulo-banner {
-        font-size: 20px;
-    }
-
-    #button-buscar a input {
-        width: 300px;
-    }
-}
-
 /*Artigos- pagina de artigos*/
-
 .img_artigo {
     display: flex;
     flex-direction: column;
@@ -202,7 +207,7 @@ footer p {
     border: 0;
 }
 #article-title  {
-    font-size: 35px;
+    font-size: 40px;
     margin-bottom: 35px;
     margin-top:15px;
     color:#0c2736;
@@ -227,8 +232,9 @@ footer p {
     padding: 1px;
     margin-bottom: 10px;
 }
-#OMS:hover{
+#hover:hover{
     color: lightcoral;
+    
 }
 .img_artigo-8 img{
     width:600px;
@@ -242,4 +248,222 @@ footer p {
     align-items: center;
     padding: 30px;
 }
+
+.article-title{
+    margin-top:25px;
+    margin-bottom: 15px;
+    font-size:2em;
+    color:#000;
+    padding: 0 5px;
+    text-align: center;
+}
+
+#tab,
+#tab2{
+    margin-left: 35px;
+    font-style: italic;
+}
+#tab2{
+    text-align: center
+}
+#h3Artigo10 {
+    font-size: 25px;
+    color:#0c2736;
+}
+
+@media only screen and (max-width: 600px) {
+    .container{
+        flex-wrap: wrap;
+        /* 15/11 */
+        width: 370px;
+        /* 15/11 */
+        align-items: center;
+    }
+    /* 15/11 diminuindo tamanho logo, criação do menu hamburguer*/
+    .logo a img {
+        width:155px;
+        margin-left: -20px;
+        height:auto;
+        margin-top:1px;
+    }
+
+    .menu-mobile {
+        display: block;
+        position: absolute;
+        width: 100%;
+        top: 60px;
+        right: 0px;
+        background: #e7e7e7;
+        height: 0px;
+        transition: .6s;
+        visibility: hidden;
+        overflow-y:hidden;
+    }
+
+    nav.active .menu-mobile {
+        height: 168px;
+        visibility: visible;
+
+    }
+
+    .menu-mobile a {
+        border-bottom: 2px solid #fff;
+        border-radius: 0px;
+        text-align: center;
+        margin-right: 20px;
+
+    }
+
+    #btn-mobile {
+        display: flex;
+        padding: 8px 16px;
+        font-size: 15px;
+        border: none;
+        background: none;
+        cursor: pointer;
+        gap: 8px;        
+    }
+
+    #hamburguer {
+        display: block;
+        border-top: 2px solid;
+        width: 20px;
+        margin-right: -20px;
+    }
+    #hamburguer::before, #hamburguer::after {
+        content: '';
+        display: block;
+        width: 20px;
+        height: 2px;
+        background-color:black;
+        margin-top: 5px;
+        transition: .3s;
+        position: relative;
+        align-items: center;
+    }
+    
+    nav.active #hamburguer{
+        border-top-color: transparent;
+
+    }
+    nav.active #hamburguer::before {
+        transform: rotate(45deg);
+    }
+
+    nav.active #hamburguer::after {
+        transform: rotate(-45deg);
+        top: -7px;
+    }
+    /* 15/11 */
+
+    /* 15/11 colocando o buscar no nav das outras páginas*/
+    #button-buscar-nav input {
+        width: 120px;
+        height: 25px;
+        text-align: center;
+        margin-left: 0px;
+        align-items: center;  
+    }
+    /* 15/11 */
+
+    .titulo-banner {
+        font-size: 20px;
+        /* 15/11 alinhamento do título */
+        text-align: center;
+        /* 15/11 */
+    }
+
+    #button-buscar a input {
+        width: 300px;
+    }
+
+    /* 17/11 alinhando textos, imagem, margem */
+    div.post_img {
+        width: 350px;
+
+    }
+    div.post_img img{
+        width: 358px;
+        
+    }
+    .img_artigo img {
+        width: 400px;
+        margin-top: 10px;
+    }
+    .article-content h2 {
+        /* text-align:justify; */
+        margin: 20px 0;
+    }
+
+    .article-content p {
+        text-align:justify;
+        margin-top: 10px;
+    }
+    
+    .fonte-artigo{
+        text-align:end;
+        color: #c2c2c2;
+        padding: 1px;
+        margin-bottom: 10px;
+    }
+    #hover:hover{
+        color: lightcoral;
+        
+    }
+    .img_artigo-8 img{
+        width:600px;
+        height: 500px;
+        margin-top: 10px;
+        border-radius: 7px;
+    }
+    .img_artigo-8{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px;
+    }
+    
+    .article-title{
+        margin-top:25px;
+        margin-bottom: 15px;
+        font-size:2em;
+        color:#000;
+        padding: 0 5px;
+        text-align: center;
+    }
+    
+    #tab,
+    #tab2{
+        margin-left: 35px;
+        font-style: italic;
+    }
+    
+    #tab2{
+        text-align: center
+    }
+    
+    #h3Artigo10 {
+        font-size: 25px;
+        color:#0c2736;
+    }
+
+    .blockquote-4{
+        font-size: 1em;
+        font-style: italic;
+        background-color: #EEEFFB;
+        text-align: justify;
+    } 
+
+    .subtitle-title{
+         font-size: 1.1em;
+         color: gray;
+         text-align: justify;
+    } 
+
+    .h2-art_14{
+        font-size: 1.2em;
+        color: #0c2736;
+        text-align: justify;
+    } 
+
 }
