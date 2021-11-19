@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,44 +7,49 @@
     <link rel="stylesheet" href="style.css">
     <title>Concentre-se</title>
 </head>
-
 <body>
-    <header>
+
+    <header class="header-mobile">
         <div class="container">
             <div class="logo">
-                <a href="index.html" class="img_logo">
+                <a href="index.html" class="img_logo" target="_blank">
                     <img src="images/logo3.png">
-                </a>
+                </a>     
             </div>
+            <!--15/11-->
+            <div id="button-buscar-nav">
+                <!-- <img src="images/busca-logo.png" alt=""/> -->
+                <a><input type="text" placeholder="Buscar..."></a>     
+            </div>
+            <!--15/11-->
             <div class="menu">
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Início</a></li>
+                <nav id="nav-mobile">
+                    <button id="btn-mobile">
+                        <span id="hamburguer"></span>
+                    </button>
+                    <ul class="menu-mobile">
+                        <li><a href="index.html" target="_blank">Início</a></li>
                         <li><a href="conteudos.html">Conteúdos</a></li>
-                        <li><a href="">Fale conosco</a></li>
+                        <li><a href="faleconosco.html" target="_blank">Fale conosco</a></li>
                     </ul>
                 </nav>
             </div>
         </div>
-    </header>
-    </section>
+    </header>   
     <section id="geral">
         <div class="container">
-            <section>
-                <div class="conteudo flex">
-                    <div>
-                        <div>
-                            <img src="images/Beethoven.png" class="img-artigo-4">
-                            <!-- alterar o número da classe e altera no css -->
-                        </div>
-
-                        <h1 class="article-title">Estudar com música ajuda na concentração, acredite</h1>
-                        <div class="article-content">
-
+            <article id="artigos">
+                <div class="conteudo-artigos">
+                    <div class="img_artigo">
+                        <img src="images/Beethoven.png">
+                    </div>
+                    <h1 id="article-title">Estudar com música ajuda na concentração, acredite</h1>
+                    <div class="article-content">
+                            
                         <div class="subtitle-title">Que tal ouvir um rock, um metal, ou uma ópera ao iniciar os estudos para um concurso?
-                            Pesquisas mostram que ouvir músicas na hora de estudar, melhora o desempenho.</div>
-                        
-                        <br>
+                            Pesquisas mostram que ouvir músicas na hora de estudar, melhora o desempenho</div>
+
+                            <br>
 
                             <p>
                                 Você sabia o quanto a música pode lhe ajudar na hora de estudar? Pois é. Várias
@@ -69,7 +73,7 @@
 
                                 <br>
 
-                               <blockquote>
+                               <blockquote class="blockquote-4">
                                     "No contexto escolar, a música tem a finalidade de ampliar e facilitar a aprendizagem do
                                     aluno. Ela favorece muito o desenvolvimento cognitivo e sensitivo, envolvendo o aluno de
                                     tal forma que ele realmente cristalize na memória uma situação", disse Aurilene.
@@ -89,24 +93,19 @@
                             <p>
                             <ul>
                                 <li>Beethoven, o Concerto para Violino e Orquestra em D Major, Op 61</li>
-
                                 <li>Tchaikovsky, o Concerto No. 1 em B bemol menor para Piano e Orquestra</li>
-
                                 <li>Mozart, Concerto para Violino e Orquestra, Concerto No. 7 in D major</li>
-
                                 <li>Haydn, Sinfonia Nº 67 em Fá Maior; Symphony No.69 em B. Maior</li>
-
                                 <li>Beethoven, Concerto No. 5 em Mi bemol maior para piano e orquestra, Op. 73 ("Imperador")</li>
                             </ul>
 
                             <br>
 
-                            <h3>Músicas Clássicas que melhoram a memorização</h3>
+                            <h2>Músicas Clássicas que melhoram a memorização</h2>
                             <ul>
                                 <li>Corelli, Concerti Grossi, Op. 6, N ° 2, 8, 5, 9.</li>
                                 <li>Handel, The Water Music.</li>
-                                <li> JS Bach, Fantasia em Sol maior, Fantasia in C Minor e Trio in D minor; As variações
-                                </li>
+                                <li> JS Bach, Fantasia em Sol maior, Fantasia in C Minor e Trio in D minor; As variações</li>
                                 <li>Canônicas e Toccata.</li>
                                 <li>Corelli, Concerti Grossi, Op. 4, N ° 10, 11, 12</li>
                                 <li>Vivaldi, Cinco Concertos para Flauta e Orquestra de Câmara.</li>
@@ -114,7 +113,7 @@
 
                             <br>
 
-                            <h3>Música Pop Nacional para antes do estudo</h3>
+                            <h2>Música Pop Nacional para antes do estudo</h2>
                             <ul>
                                 <li>O Rappa</li>
                                 <li>Skank</li>
@@ -141,8 +140,9 @@
                             
                             <br>
 
-                            <a href="https://www.acheconcursos.com.br/artigos/estudar-com-musica-ajuda-na-concentracao-acredite-39681" class="bibliografia" target="_blank">Fonte: https://www.acheconcursos.com.br/artigos/estudar-com-musica-ajuda-na-concentracao-acredite-39681</a>
-                        </div>
+                    </div>
+                    <div class="fonte-artigo">
+                        <a target="_blank" href="https://www.acheconcursos.com.br/artigos/estudar-com-musica-ajuda-na-concentracao-acredite-39681">Fonte: acheconcursos </a>
                     </div>
                 </div> 
                 <div class="coment">
@@ -165,14 +165,13 @@
                         })();
                     </script>
                     <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-                </div>
-                </div>
-            </section>
+                </div>   
+            </article>
         </div>
     </section>
     <footer>
-        <p>Copyright &COPY; Grupo2 2021</p>
+        <p>Copyright &COPY; Grupo2 2021</p>       
     </footer>
+    <script type="text/javascript" src="main.js"></script>
 </body>
-
 </html>
