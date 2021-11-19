@@ -195,6 +195,12 @@ footer p {
     margin-top: 10px;
     border-radius: 7px;
 }
+.artigo1_img img {
+    width:650px;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 7px;
+}
 .conteudo-artigos h1 img{
     display: flex;
     justify-content: center;
