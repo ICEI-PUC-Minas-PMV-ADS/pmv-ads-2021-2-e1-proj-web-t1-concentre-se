@@ -133,6 +133,12 @@ nav a:hover{
     display:flex;
     flex-wrap: wrap;
 }
+
+.flex-row{
+    display:flex;
+    flex-direction: row;
+}
+
 /*Artigos - homepage*/
 article {
     flex:1;
@@ -195,6 +201,12 @@ footer p {
     margin-top: 10px;
     border-radius: 7px;
 }
+.artigo1_img img {
+    width:650px;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 7px;
+}
 .conteudo-artigos h1 img{
     display: flex;
     justify-content: center;
@@ -212,6 +224,7 @@ footer p {
     margin-top:15px;
     color:#0c2736;
     font-family: sans-serif;
+    text-align: center;
 }
 .article-content{
     font-size:20px;
@@ -248,14 +261,6 @@ footer p {
     align-items: center;
     padding: 30px;
 }
-.img-artigo-4{
-    height: 400px;
-    width: 700px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    border-radius: 1%;
-}
 
 .article-title{
     margin-top:25px;
@@ -266,92 +271,6 @@ footer p {
     text-align: center;
 }
 
-.subtitle-title{
-    font-size: 1.2em;
-    color: gray;
-}
-h2{
-font-size: 1.3em;
-text-align: justify;
-}
-
-p{
-font-size: 1.2em;
-text-align: justify;
-}
-
-ul{
-font-size: 1.2em;
-text-align: justify;
-}
-
-h3{
-    font-size: 1.3em;
-    text-align: justify;
-}
-blockquote{
-font-size: 1.2em;
-font-style: italic;
-background-color: #EEEFFB;
-}
-
-.bibliografia{
-    font-size: 1em;
-    font-style: italic;
-    text-align: justify;
-}
-
-.img-artigo-3{
-    height: 400px;
-    width: 700px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    border-radius: 1%;
-}
-
-.article-title3{
-    margin-top:25px;
-    margin-bottom: 15px;
-    font-size:1.8em;
-    color:#000;
-    padding: 0 5px;
-    text-align: center;
-}
-
-.article-title14{
-    margin-top:25px;
-    margin-bottom: 15px;
-    font-size:1.8em;
-    color:#000;
-    padding: 0 5px;
-    text-align: center;
-}
-    
-.img-artigo-14{
-    height: 400px;
-    width: 700px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    border-radius: 1%;
-}
-.article-title15{
-    margin-top:25px;
-    margin-bottom: 15px;
-    font-size:1.6em;
-    color:#000;
-    padding: 0 5px;
-    text-align: center;
-}
-.img-artigo-15{
-    height: 400px;
-    width: 700px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    border-radius: 1%;
-}
 #tab,
 #tab2{
     margin-left: 35px;
@@ -560,4 +479,70 @@ border-color: #b7d4fb;
 background: #0088cc;
 color: #ebedf9;
 }
+
+    .fonte-artigo{
+        text-align:end;
+        color: #c2c2c2;
+        padding: 1px;
+        margin-bottom: 10px;
+    }
+    #hover:hover{
+        color: lightcoral;
+        
+    }
+    .img_artigo-8 img{
+        width:600px;
+        height: 500px;
+        margin-top: 10px;
+        border-radius: 7px;
+    }
+    .img_artigo-8{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px;
+    }
+    
+    .article-title{
+        margin-top:25px;
+        margin-bottom: 15px;
+        font-size:2em;
+        color:#000;
+        padding: 0 5px;
+        text-align: center;
+    }
+    
+    #tab,
+    #tab2{
+        margin-left: 35px;
+        font-style: italic;
+    }
+    
+    #tab2{
+        text-align: center
+    }
+    
+    #h3Artigo10 {
+        font-size: 25px;
+        color:#0c2736;
+    }
+
+    .blockquote-4{
+        font-size: 1em;
+        font-style: italic;
+        background-color: #EEEFFB;
+        text-align: justify;
+    } 
+
+    .subtitle-title{
+         font-size: 1.1em;
+         color: gray;
+         text-align: justify;
+    } 
+
+    .h2-art_14{
+        font-size: 1.2em;
+        color: #0c2736;
+        text-align: justify;
+    } 
 
