@@ -133,6 +133,12 @@ nav a:hover{
     display:flex;
     flex-wrap: wrap;
 }
+
+.flex-row{
+    display:flex;
+    flex-direction: row;
+}
+
 /*Artigos - homepage*/
 article {
     flex:1;
@@ -218,6 +224,7 @@ footer p {
     margin-top:15px;
     color:#0c2736;
     font-family: sans-serif;
+    text-align: center;
 }
 .article-content{
     font-size:20px;
