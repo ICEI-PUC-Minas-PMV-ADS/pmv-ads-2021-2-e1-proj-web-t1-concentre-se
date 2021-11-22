@@ -134,10 +134,24 @@ nav a:hover{
     flex-wrap: wrap;
 }
 
+/* Artigos em conteúdos */
+
 .flex-row{
     display:flex;
     flex-direction: row;
 }
+.div-row {
+    width: 640px;
+}
+
+.post-title-content {
+    margin-top: 20px;
+}
+.post-content {
+    margin-top: 20px;
+    margin-left: -5px;
+}
+
 
 /*Artigos - homepage*/
 article {
@@ -398,7 +412,7 @@ footer p {
         /* 15/11 */
     }
     .Compartilhamento {
-    background-image:url('https://ayltoninacio.com.br/img/s/21w50.jpg');
+     background-image:url('https://ayltoninacio.com.br/img/s/21w50.jpg');
      width: 45px;
      height: 50px;
      
