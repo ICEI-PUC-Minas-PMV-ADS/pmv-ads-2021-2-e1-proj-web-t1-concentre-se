@@ -12,19 +12,28 @@
 
 <body>
 
-    <header>
+    <header class="header-mobile">
         <div class="container">
             <div class="logo">
                 <a href="index.html" class="img_logo" target="_blank">
                     <img src="images/logo3.png">
-                </a>
+                </a>     
             </div>
+            <!--15/11-->
+            <div id="button-buscar-nav">
+                <!-- <img src="images/busca-logo.png" alt=""/> -->
+                <a><input type="text" placeholder="Buscar..."></a>     
+            </div>
+            <!--15/11-->
             <div class="menu">
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Início</a></li>
+                <nav id="nav-mobile">
+                    <button id="btn-mobile">
+                        <span id="hamburguer"></span>
+                    </button>
+                    <ul class="menu-mobile">
+                        <li><a href="index.html" target="_blank">Início</a></li>
                         <li><a href="conteudos.html">Conteúdos</a></li>
-                        <li><a href="faleconosco.html">Fale conosco</a></li>
+                        <li><a href="faleconosco.html" target="_blank">Fale conosco</a></li>
                     </ul>
                 </nav>
             </div>
@@ -208,6 +217,7 @@
     <footer>
         <p>Copyright &COPY; Grupo2 2021</p>
     </footer>
+    <script type="text/javascript" src="main.js"></script>
 </body>
 
 </html>
