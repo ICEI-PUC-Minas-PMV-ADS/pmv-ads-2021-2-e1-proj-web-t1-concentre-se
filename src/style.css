@@ -412,9 +412,11 @@ footer p {
         /* 15/11 */
     }
     .Compartilhamento {
-     background-image:url('https://ayltoninacio.com.br/img/s/21w50.jpg');
-     width: 45px;
-     height: 50px;
+     background-image:url(images/compartilhar\ 24px.png);
+     background-image: no-repeat;
+     border-radius: 100%;
+     width: 25px;
+     height: 25px;
      
     }
     .redes-sociais{
