@@ -1,8 +1,8 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-}
+} */
 /*Navegação*/
 header{
     display: flex;
@@ -18,6 +18,7 @@ header{
 .logo{
     display: flex;
     align-items: center;
+    margin-top: 9px;
 }
 .logo a img {
     width:225px;
@@ -26,14 +27,19 @@ header{
 
 /* 15/11 colocando o buscar no nav e o desaparecendo o botão hamburguer do desktop*/
 #button-buscar-nav input{
-    width: 150px;
-    height: 25px;
-    border-radius: 25px;
+    width: 155px;
+    height: 40px;
+    border-radius: 24px;
+    border-color:#c2c2c2;
     border-style: solid;
-    margin-top: 15px;
+    margin-top: 9px;
     margin-left: 40px;
     padding: 0 15px;
     text-transform: uppercase;
+    align-items: center;
+}
+#button-buscar-nav input:hover{
+    border-color:#F8941D
 
 }
 
@@ -63,7 +69,6 @@ nav a{
     color: black;
     margin-left: 21px;
     border-radius: 24px;
-
 }
 nav a:hover{
     color:#fff;
@@ -128,6 +133,26 @@ nav a:hover{
     display:flex;
     flex-wrap: wrap;
 }
+
+/* Artigos em conteúdos */
+
+.flex-row{
+    display:flex;
+    flex-direction: row;
+}
+.div-row {
+    width: 640px;
+}
+
+.post-title-content {
+    margin-top: 20px;
+}
+.post-content {
+    margin-top: 20px;
+    margin-left: -5px;
+}
+
+
 /*Artigos - homepage*/
 article {
     flex:1;
@@ -178,7 +203,6 @@ footer p {
 }
 
 /*Artigos- pagina de artigos*/
-
 .img_artigo {
     display: flex;
     flex-direction: column;
@@ -187,6 +211,24 @@ footer p {
 }
 .img_artigo img{
     width:800px;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 7px;
+}
+.artigo1_img img {
+    width:650px;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 7px;
+}
+.artigo12_img img {
+    width:650px;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 7px;
+}
+.artigo13_img img {
+    width:650px;
     height: auto;
     margin-top: 10px;
     border-radius: 7px;
@@ -208,6 +250,7 @@ footer p {
     margin-top:15px;
     color:#0c2736;
     font-family: sans-serif;
+    text-align: center;
 }
 .article-content{
     font-size:20px;
@@ -244,14 +287,6 @@ footer p {
     align-items: center;
     padding: 30px;
 }
-.img-artigo-4{
-    height: 400px;
-    width: 700px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    border-radius: 1%;
-}
 
 .article-title{
     margin-top:25px;
@@ -262,151 +297,32 @@ footer p {
     text-align: center;
 }
 
-.subtitle-title{
-    font-size: 1.2em;
-    color: gray;
-}
-h2{
-font-size: 1.3em;
-text-align: justify;
-}
 
-p{
-font-size: 1.2em;
-text-align: justify;
-}
-
-ul{
-font-size: 1.2em;
-text-align: justify;
-}
-
-h3{
-    font-size: 1.3em;
-    text-align: justify;
-}
-blockquote{
-font-size: 1.2em;
-font-style: italic;
-background-color: #EEEFFB;
-}
-
-.bibliografia{
-    font-size: 1em;
-    font-style: italic;
-    text-align: justify;
-}
-
-.img-artigo-3{
-    height: 400px;
-    width: 700px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    border-radius: 1%;
-}
-
-.article-title3{
-    margin-top:25px;
-    margin-bottom: 15px;
-    font-size:1.8em;
-    color:#000;
-    padding: 0 5px;
-    text-align: center;
-}
-
-.article-title14{
-    margin-top:25px;
-    margin-bottom: 15px;
-    font-size:1.8em;
-    color:#000;
-    padding: 0 5px;
-    text-align: center;
-}
-
-.img-artigo-14{
-    height: 400px;
-    width: 700px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    border-radius: 1%;
-}
-.article-title15{
-    margin-top:25px;
-    margin-bottom: 15px;
-    font-size:1.6em;
-    color:#000;
-    padding: 0 5px;
-    text-align: center;
-}
-.img-artigo-15{
-    height: 400px;
-    width: 700px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    border-radius: 1%;
-}
-#tab,
 #tab2{
     margin-left: 35px;
     font-style: italic;
+      text-align: center
 }
-#tab2{
-    text-align: center
-}
+
 #h3Artigo10 {
     font-size: 25px;
     color:#0c2736;
 }
 
-<<<<<<< HEAD
-#myInput {
-  background-image: url('/css/searchicon.png'); /* Add a search icon to input */
-  background-position: 10px 12px; /* Position the search icon */
-  background-repeat: no-repeat; /* Do not repeat the icon image */
-  width: 100%; /* Full-width */
-  font-size: 16px; /* Increase font-size */
-  padding: 12px 20px 12px 40px; /* Add some padding */
-  border: 1px solid #ddd; /* Add a grey border */
-  margin-bottom: 12px; /* Add some space below the input */
-}
-
-#myUL {
-  /* Remove default list styling */
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
-#myUL li a {
-  border: 1px solid #ddd; /* Add a border to all links */
-  margin-top: -1px; /* Prevent double borders */
-  background-color: #f6f6f6; /* Grey background color */
-  padding: 12px; /* Add some padding */
-  text-decoration: none; /* Remove default text underline */
-  font-size: 18px; /* Increase the font-size */
-  color: black; /* Add a black text color */
-  display: block; /* Make it into a block element to fill the whole list */
-}
-
-#myUL li a:hover:not(.header) {
-  background-color: #eee; /* Add a hover effect to all links, except for headers */
-}
-=======
 @media only screen and (max-width: 600px) {
     .container{
         flex-wrap: wrap;
         /* 15/11 */
         width: 370px;
         /* 15/11 */
+        align-items: center;
     }
     /* 15/11 diminuindo tamanho logo, criação do menu hamburguer*/
     .logo a img {
-        width:140px;
+        width:155px;
         margin-left: -20px;
         height:auto;
+        margin-top:1px;
     }
 
     .menu-mobile {
@@ -420,11 +336,10 @@ background-color: #EEEFFB;
         transition: .6s;
         visibility: hidden;
         overflow-y:hidden;
-
     }
 
     nav.active .menu-mobile {
-        height: 155px;
+        height: 168px;
         visibility: visible;
 
     }
@@ -458,11 +373,13 @@ background-color: #EEEFFB;
         display: block;
         width: 20px;
         height: 2px;
-        background: black;
+        background-color:black;
         margin-top: 5px;
         transition: .3s;
         position: relative;
+        align-items: center;
     }
+
     nav.active #hamburguer{
         border-top-color: transparent;
 
@@ -477,12 +394,13 @@ background-color: #EEEFFB;
     }
     /* 15/11 */
 
-
     /* 15/11 colocando o buscar no nav das outras páginas*/
     #button-buscar-nav input {
         width: 120px;
+        height: 25px;
         text-align: center;
         margin-left: 0px;
+        align-items: center;
     }
     /* 15/11 */
 
@@ -492,7 +410,17 @@ background-color: #EEEFFB;
         text-align: center;
         /* 15/11 */
     }
+    .Compartilhamento {
+     background-image:url(images/compartilhar\ 24px.png);
+     background-image: no-repeat;
+     border-radius: 100%;
+     width: 25px;
+     height: 25px;
 
+    }
+    .redes-sociais{
+        display: none;
+    }
     #button-buscar a input {
         width: 300px;
     }
@@ -500,12 +428,11 @@ background-color: #EEEFFB;
     /* 17/11 alinhando textos, imagem, margem */
     div.post_img {
         width: 350px;
-        
-       
+
     }
     div.post_img img{
         width: 358px;
-        
+
     }
     .img_artigo img {
         width: 400px;
@@ -520,6 +447,162 @@ background-color: #EEEFFB;
         text-align:justify;
         margin-top: 10px;
     }
-    
+
 }
->>>>>>> f5181272e96019c81c3baaddb77f769b6ede120b
+/*Button de Compartilhamento */
+.rede-social p{
+text-align: center;
+font-size: 20px;
+padding: 2px;
+margin: 5px;
+height: 40px;
+}
+.rede-social a i {
+font-size: 30px;
+margin: 3px;
+line-height: 55px;
+width: 55px;
+height: 55px;
+border: 1px solid transparent;
+text-align: center;
+box-shadow:  2px 3px 3px  #4c3333;
+}
+.fa-facebook{
+color: #1877f2;
+border-color: #b7d4fb;
+}
+.fa-facebook:hover{
+    background: #1877f2;
+    color: #ebedf9;
+}
+.fa-twitter{
+    color: #45c1f6;
+    border-color: #b5e7fc;
+}
+.fa-twitter:hover{
+   background: #45c1f6;
+   color: #ebedf9;
+}
+.fa-instagram{
+    color: #e1306c;
+    border-color: #f5bccf;
+}
+.fa-instagram:hover{
+    background: #e1306c ;
+    color:#ebedf9 ;
+}
+.fa-whatsapp{
+    color: #25d366 ;
+    border-color: #bef4d2;
+}
+.fa-whatsapp:hover{
+    background: #25d366 ;
+    color:#ebedf9
+}
+.fa-telegram-plane{
+    color:#0088cc ;
+    border-color:#b3e6ff ;
+}
+.fa-telegram-plane:hover{
+background: #0088cc;
+color: #ebedf9;
+}
+
+    .fonte-artigo{
+        text-align:end;
+        color: #c2c2c2;
+        padding: 1px;
+        margin-bottom: 10px;
+    }
+    #hover:hover{
+        color: lightcoral;
+
+    }
+    .img_artigo-8 img{
+        width:600px;
+        height: 500px;
+        margin-top: 10px;
+        border-radius: 7px;
+    }
+    .img_artigo-8{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px;
+    }
+
+    .article-title{
+        margin-top:25px;
+        margin-bottom: 15px;
+        font-size:2em;
+        color:#000;
+        padding: 0 5px;
+        text-align: center;
+    }
+
+    #tab2{
+        margin-left: 35px;
+        font-style: italic;
+        text-align: center
+    }
+
+    #h3Artigo10 {
+        font-size: 25px;
+        color:#0c2736;
+    }
+
+    .blockquote-4{
+        font-size: 1em;
+        font-style: italic;
+        background-color: #EEEFFB;
+        text-align: justify;
+    }
+
+    .subtitle-title{
+         font-size: 1.1em;
+         color: gray;
+         text-align: justify;
+    }
+
+    .h2-art_14{
+        font-size: 1.2em;
+        color: #0c2736;
+        text-align: justify;
+    }
+
+    .article-title-5 {
+     margin-top: 10%;
+     font-size: 2.5em;
+     text-align: center;
+     font-family: 'Nunito', sans-serif;
+     font-weight: 900;
+    }
+
+    #p_undertitle {
+       font-size: 1em;
+       font-style: italic;
+       margin: 0;
+     }
+
+     .ph2 {
+       font-size: 2em;
+       text-align: justify;
+       font-family: "Nunito", sans-serif;
+       font-weight: 700;
+     }
+
+     .img-artigo-5 {
+       max-width: 960px;
+     }
+
+    #img-artigo-5 {
+      max-width: 960px;
+      min-height: 90px;
+      max-height: 1460px;
+
+    }
+
+    #p_5 {
+      font-size: 1.2em;
+      font-family: "Nunito", sans-serif;
+    }
