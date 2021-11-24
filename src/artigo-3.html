@@ -1,46 +1,65 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <title>Concentre-se</title>
 </head>
-
 <body>
-    <header>
+
+    <header class="header-mobile">
         <div class="container">
             <div class="logo">
-                <a href="index.html" class="img_logo">
+                <a href="index.html" class="img_logo" target="_blank">
                     <img src="images/logo3.png">
-                </a>
+                </a>     
             </div>
+            <!--15/11-->
+            <div id="button-buscar-nav">
+                <!-- <img src="images/busca-logo.png" alt=""/> -->
+                <a><input type="text" placeholder="Buscar..."></a>     
+            </div>
+            <!--15/11-->
             <div class="menu">
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Início</a></li>
+                <nav id="nav-mobile">
+                    <button id="btn-mobile">
+                        <span id="hamburguer"></span>
+                    </button>
+                    <ul class="menu-mobile">
+                        <li><a href="index.html" target="_blank">Início</a></li>
                         <li><a href="conteudos.html">Conteúdos</a></li>
-                        <li><a href="">Fale conosco</a></li>
+                        <li><a href="faleconosco.html" target="_blank">Fale conosco</a></li>
                     </ul>
                 </nav>
             </div>
         </div>
-    </header>
-    </section>
+    </header>   
     <section id="geral">
         <div class="container">
-            <section>
-                <div class="conteudo flex">
-                    <div>
-                        <div>
-                            <img src="images/anxiety.png" class="img-artigo-3">
-                            <!-- alterar o número da classe e altera no css -->
-                        </div>
-                        
-                            <h1 class="article-title3">Por que a ansiedade pode atrapalhar a capacidade de concentração?</h1>
-                        <div class="article-content">
+            <article id="artigos">
+                <div class="conteudo-artigos">
+                    <div class="img_artigo">
+                        <img src="images/anxiety.png"><br>
+
+                    <div class="redes-sociais">
+                        <p class="redes-sociais"></p>
+                         <ul>
+                            <a href="https://www.facebook.com/sharer/sharer.php?u="  class="fab fa-facebook"></i></a> 
+                            <a href="https://twitter.com/intent/tweet?url=[URL]&text=[TEXTO-DO-TWEET]&via=[NOME-DE-USUARIO-DO-TWITTER]&hashtags=[LISTA-DE-HASHTAGS]"  class="fab fa-twitter"></i></a>
+                            <a href="https://api.whatsapp.com/send?text="class="fab fa-whatsapp"></i></a>
+                            <a href="https://t.me/share/url?url={url}&text={text}" class="fab fa-telegram-plane"></i></a>
+                         </ul> 
+                       </div>
+                    </div>
+                       <a href="javascript:void(0)" onclick="share()">
+                        <img alt=""class="Compartilhamento">
+                    </a>
+
+                    <h1 id="article-title">Por que a ansiedade pode atrapalhar a capacidade de concentração?</h1>
+                    <div class="article-content">
                         <br>
                              <p>
                                 O aumento dos níveis de ansiedade é um problema de saúde que deve ser tratado com a ajuda
@@ -64,7 +83,7 @@
                                 atrapalhar a capacidade de concentração e devem ser analisados por um médico.
                              </p>  
                         <br>
-                            <h3>Falta de concentração atrapalha no rendimento no trabalho</h3>
+                            <h2>Falta de concentração atrapalha no rendimento no trabalho</h2>
                         <br>
                              <p>
                                 A dificuldade de concentração pode ser percebida por amigos, familiares e colegas de
@@ -84,10 +103,12 @@
                                 Janeiro (UERJ) e atende no Rio de Janeiro. CRM-RJ: 52-98519-8
                              </p>
                         <br>
+                    </div>
+                    <div class="fonte-artigo">
+                        <a target="_blank" href="https://cuidadospelavida.com.br/saude-e-tratamento/ansiedade/ansiedade-capacidade-concentracao">Fonte: cuidadospelavida</a>
+                       
+                        <br><br>
 
-                        <a href="https://cuidadospelavida.com.br/saude-e-tratamento/ansiedade/ansiedade-capacidade-concentracao" class="bibliografia" target="_blank">Fonte: https://cuidadospelavida.com.br/saude-e-tratamento/ansiedade/ansiedade-capacidade-concentracao</a>
-    
-                        </div>
                     </div>
                 </div> 
                 <div class="coment">
@@ -110,14 +131,13 @@
                         })();
                     </script>
                     <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-                </div>
-                </div>
-            </section>
+                </div>   
+            </article>
         </div>
     </section>
     <footer>
-        <p>Copyright &COPY; Grupo2 2021</p>
+        <p>Copyright &COPY; Grupo2 2021</p>       
     </footer>
+    <script type="text/javascript" src="main.js"></script>
 </body>
-
 </html>

@@ -1,46 +1,64 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <title>Concentre-se</title>
 </head>
-
 <body>
-    <header>
+
+    <header class="header-mobile">
         <div class="container">
             <div class="logo">
-                <a href="index.html" class="img_logo">
+                <a href="index.html" class="img_logo" target="_blank">
                     <img src="images/logo3.png">
-                </a>
+                </a>     
             </div>
+            <!--15/11-->
+            <div id="button-buscar-nav">
+                <!-- <img src="images/busca-logo.png" alt=""/> -->
+                <a><input type="text" placeholder="Buscar..."></a>     
+            </div>
+            <!--15/11-->
             <div class="menu">
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Início</a></li>
+                <nav id="nav-mobile">
+                    <button id="btn-mobile">
+                        <span id="hamburguer"></span>
+                    </button>
+                    <ul class="menu-mobile">
+                        <li><a href="index.html" target="_blank">Início</a></li>
                         <li><a href="conteudos.html">Conteúdos</a></li>
-                        <li><a href="">Fale conosco</a></li>
+                        <li><a href="faleconosco.html" target="_blank">Fale conosco</a></li>
                     </ul>
                 </nav>
             </div>
         </div>
-    </header>
-    </section>
+    </header>  
     <section id="geral">
         <div class="container">
-            <section>
-                <div class="conteudo flex">
-                    <div>
-                        <div>
-                            <img src="images/atention.jpg" class="img-artigo-15">
-                            <!-- alterar o número da classe e altera no css -->
+            <article id="artigos">
+                <div class="conteudo-artigos">
+                    <div class="img_artigo">
+                        <img src="images/atention.jpg"><br>
+                        <div class="redes-sociais">
+                            <p class="redes-sociais"></p>
+                             <ul>
+                                <a href="https://www.facebook.com/sharer/sharer.php?u="  class="fab fa-facebook"></i></a> 
+                                <a href="https://twitter.com/intent/tweet?url=[URL]&text=[TEXTO-DO-TWEET]&via=[NOME-DE-USUARIO-DO-TWITTER]&hashtags=[LISTA-DE-HASHTAGS]"  class="fab fa-twitter"></i></a>
+                                <a href="https://api.whatsapp.com/send?text="class="fab fa-whatsapp"></i></a>
+                                <a href="https://t.me/share/url?url={url}&text={text}" class="fab fa-telegram-plane"></i></a>
+                             </ul> 
+                           </div>
                         </div>
+                           <a href="javascript:void(0)" onclick="share()">
+                            <img alt=""class="Compartilhamento">
+                        </a>
 
-                        <h1 class="article-title15">Concentração: o que é, como melhorar a sua e quais transtornos podem atrapalhar</h1>
-                        <div class="article-content">
+                    <h1 id="article-title">Concentração: o que é, como melhorar a sua e quais transtornos podem atrapalhar</h1>
+                    <div class="article-content">
                         <br>
                             <p>
                                 Para quem estuda, a capacidade de se concentrar é fundamental. Mas apesar de ser
@@ -98,7 +116,7 @@
                                 Beatriz.
                             </p>
                         <br>
-                            <h3>Quais fatores afetam a nossa concentração?</h3>
+                            <h2>Quais fatores afetam a nossa concentração?</h2>
                         <br>
                             <p>
                                 A partir dessa definição, já é possível perceber algumas coisas sobre a concentração que
@@ -132,7 +150,7 @@
                                 para melhorar a concentração, é preciso diminuir essas duas fontes de distrações.
                             </p>
                         <br>
-                            <h3>Como melhorar nossa concentração?</h3>
+                            <h2>Como melhorar nossa concentração?</h2>
                         <br>
                             <p>
                                 Para esse fim, Beatriz oferece uma série de recomendações que podem ajudar. São
@@ -195,7 +213,7 @@
                                 medidas que funcionem para você!
                             </p>
                         <br>
-                            <h3>E quando nada funciona?</h3>
+                            <h2>E quando nada funciona?</h2>
                         <br>
                             <p>
                                 Há transtornos psiquiátricos que podem atrapalhar nossa capacidade de concentração. Mas
@@ -245,7 +263,7 @@
                                 pode, no longo prazo, ter problemas de concentração.
                             </p>
                         <br>
-                            <h3>Como saber se eu preciso de ajuda?</h3>
+                            <h2>Como saber se eu preciso de ajuda?</h2>
                         <br>
                             <p>
                                 No caso de todos esses transtornos, é importante procurar ajuda de um profissional de
@@ -260,12 +278,11 @@
                                 trabalho ou em seus relacionamentos, pode ser o caso de buscar ajuda profissional.
                             </p>
                         <br>
-                            <a href="https://www.estudarfora.org.br/concentracao-o-que-e-como-treinar-e-quais-transtornos-podem-atrapalhar/"
-                                class="bibliografia" target="_blank">Fonte: https://www.estudarfora.org.br/concentracao-o-que-e-como-treinar-e-quais-transtornos-podem-atrapalhar/</a>
-
-                        </div>
                     </div>
-                </div>
+                    <div class="fonte-artigo">
+                        <a target="_blank" href="https://www.estudarfora.org.br/concentracao-o-que-e-como-treinar-e-quais-transtornos-podem-atrapalhar/">Fonte: estudarfora</a>
+                    </div>
+                </div> 
                 <div class="coment">
                     <div id="disqus_thread"></div>
                     <script>
@@ -278,23 +295,21 @@
                         this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
                         };
                         */
-                        (function () { // DON'T EDIT BELOW THIS LINE
-                            var d = document, s = d.createElement('script');
-                            s.src = 'https://concentre-se.disqus.com/embed.js';
-                            s.setAttribute('data-timestamp', +new Date());
-                            (d.head || d.body).appendChild(s);
+                        (function() { // DON'T EDIT BELOW THIS LINE
+                        var d = document, s = d.createElement('script');
+                        s.src = 'https://concentre-se.disqus.com/embed.js';
+                        s.setAttribute('data-timestamp', +new Date());
+                        (d.head || d.body).appendChild(s);
                         })();
                     </script>
-                    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments
-                            powered by Disqus.</a></noscript>
-                </div>
+                    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                </div>   
+            </article>
         </div>
     </section>
-    </div>
-    </section>
     <footer>
-        <p>Copyright &COPY; Grupo2 2021</p>
+        <p>Copyright &COPY; Grupo2 2021</p>       
     </footer>
+    <script type="text/javascript" src="main.js"></script>
 </body>
-
 </html>

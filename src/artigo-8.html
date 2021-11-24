@@ -5,23 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <title>Concentre-se</title>
 </head>
 <body>
 
-    <header>
+    <header class="header-mobile">
         <div class="container">
             <div class="logo">
                 <a href="index.html" class="img_logo" target="_blank">
                     <img src="images/logo3.png">
                 </a>     
             </div>
+            <!--15/11-->
+            <div id="button-buscar-nav">
+                <!-- <img src="images/busca-logo.png" alt=""/> -->
+                <a><input type="text" placeholder="Buscar..."></a>     
+            </div>
+            <!--15/11-->
             <div class="menu">
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Início</a></li>
+                <nav id="nav-mobile">
+                    <button id="btn-mobile">
+                        <span id="hamburguer"></span>
+                    </button>
+                    <ul class="menu-mobile">
+                        <li><a href="index.html" target="_blank">Início</a></li>
                         <li><a href="conteudos.html">Conteúdos</a></li>
-                        <li><a href="faleconosco.html">Fale conosco</a></li>
+                        <li><a href="faleconosco.html" target="_blank">Fale conosco</a></li>
                     </ul>
                 </nav>
             </div>
@@ -33,9 +43,24 @@
         <div class="container">
             <article id="artigos">
                 <div class="conteudo-artigos">
-                    <div class="img_artigo-8">
-                        <img src="images/luis-villasmil-mlVbMbxfWI4-unsplash.jpg">
+                   <div class="img_artigo-8">
+                        <img src="images/luis-villasmil-mlVbMbxfWI4-unsplash.jpg"><br>
+                    <div class="redes-sociais">
+                     <p class="redes-sociais"></p>
+                      <ul> 
+                         <a href="https://www.facebook.com/sharer/sharer.php?u="  class="fab fa-facebook "></i></a> 
+                         <a href="https://twitter.com/intent/tweet?url=[URL]&text=[TEXTO-DO-TWEET]&via=[NOME-DE-USUARIO-DO-TWITTER]&hashtags=[LISTA-DE-HASHTAGS]"  class="fab fa-twitter "></i></a>
+                         <a href="https://api.whatsapp.com/send?text="class="fab fa-whatsapp "></i></a>
+                         <a href="https://t.me/share/url?url={url}&text={text}" class="fab fa-telegram-plane "></i></a>
+                      </ul> 
                     </div>
+
+                   </div>
+                    <a href="javascript:void(0)" onclick="share()">
+
+                        <img alt=""class="Compartilhamento">
+                    </a>
+                    
                     <h1 id="article-title">GRD – Gerenciamento de Rotina Diária: saiba o que é e como fazê-la</h1><br>
 
                     <div class="article-content">
@@ -141,5 +166,6 @@
     <footer>
         <p>Copyright &COPY; Grupo2 2021</p>       
     </footer>
+    <script type="text/javascript" src="main.js"></script>
 </body>
 </html>

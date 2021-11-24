@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,21 +8,30 @@
     <link rel="stylesheet" href="style.css">
     <title>Concentre-se</title>
 </head>
-<body>
 
-    <header>
+<body>
+    <header class="header-mobile">
         <div class="container">
             <div class="logo">
                 <a href="index.html" class="img_logo" target="_blank">
                     <img src="images/logo3.png">
-                </a>     
+                </a>
             </div>
+            <!--15/11-->
+            <div id="button-buscar-nav">
+                <!-- <img src="images/busca-logo.png" alt=""/> -->
+                <a><input type="text" placeholder="Buscar..."></a>
+            </div>
+            <!--15/11-->
             <div class="menu">
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Início</a></li>
+                <nav id="nav-mobile">
+                    <button id="btn-mobile">
+                        <span id="hamburguer"></span>
+                    </button>
+                    <ul class="menu-mobile">
+                        <li><a href="index.html" target="_blank">Início</a></li>
                         <li><a href="conteudos.html">Conteúdos</a></li>
-                        <li><a href="faleconosco.html">Fale conosco</a></li>
+                        <li><a href="faleconosco.html" target="_blank">Fale conosco</a></li>
                     </ul>
                 </nav>
             </div>
@@ -32,42 +42,148 @@
             <article id="artigos">
                 <div class="conteudo-artigos">
                     <div class="img_artigo">
-                        <img src="images/library.jpg">
                     </div>
-                    <h1 id="article-title">Título</h1>
+                    <h1 id="article-title">Artigos</h1>
                     <div class="article-content">
-                        <!-- Conteúdo-->
+                        <!-- Copiar de <article> até o <article> e alterar a imagem, o texto título e o texto + <a> do post -->
+                        <article class="container flex">
+                            <a href="artigo-1.html" target="_blank" class="flex-row">
+                                <div class="post_img">
+                                    <img src="images/musicfocus.jpg">
+                                </div>
+                                <div class="post_title post-title-content div-row">
+                                    A musica como fonte de estímulo para sua concentração
+
+                                    <div class="post_resume post-content">
+                                        Saiba quais tipos de musica você pode escutar enquanto estuda ou trabalha.
+                                        Convencido de que a música pode ajudar a melhorar a sua performance nos estudos?
+                                        Então, que tal conferir algumas seleções com objetivos específicos?
+                                        <br><a href="artigo-1.html" target="_blank" class="leia_mais">Leia mais</a>
+                                    </div>
+                                </div>
+                            </a>
+                        </article>
+                        <article class="container flex flex-row">
+                            <a href="artigo-2.html" target="_blank">
+                                <div class="post_img">
+                                    <img src="images/mindfulness.jpeg">
+                                </div>
+                                <div class="post_title post-title-content div-row">
+                                    Pratique seu foco com essas técnicas infalíveis!
+
+                                    <div class="post_resume post-content">
+                                        Entenda sobre a mindfulness e como ela é essencial para seu foco no estudo ou
+                                        trabalho...
+                                        <br>
+                                        "Como <i>mindfulness</i> pode ajudar a concentração?"
+                                        <a href="artigo-2.html" target="_blank" class="leia_mais">Leia mais</a>
+                                    </div>
+                                </div>
+                            </a>
+                        </article>
+                        <article class="container flex flex-row">
+                            <a href="artigo-3.html" target="_blank">
+                                <div class="post_img">
+                                    <img src="images/anxiety.png">
+                                </div>
+                                <div class="post_title post-title-content div-row">
+                                    Por que a ansiedade pode atrapalhar a capacidade de concentração?
+                                    <div class="post_resume post-content">
+                                        “A falta de concentração é um dos critérios diagnósticos do transtorno de ansiedade
+                                        generalizada, assim como preocupação excessiva, irritabilidade, alteração de sono e
+                                        inquietação”, informa a psiquiatra Paula Alves. <a href="artigo-3.html" target="_blank" class="leia_mais">Leia mais</a>
+                                    </div>
+                                </div>
+                            </a>
+                        </article>
+                        <article class="container flex flex-row">
+                            <a href="artigo-4.html" target="_blank">
+                                <div class="post_img">
+                                    <img src="images/Beethoven.png">
+                                </div>
+                                <div class="post_title post-title-content div-row">
+                                    Estudar com música ajuda na concentração, acredite
+                                    <div class="post_resume post-content">
+                                        Você sabia o quanto a música pode lhe ajudar na hora de estudar? Pois é. Várias
+                                        universidades na França e Inglaterra fizeram várias pesquisas e confirmaram isso. A
+                                        música ajuda no desenvolvimento do cérebro e melhora a concentração...  <a href="artigo-4.html" target="_blank" class="leia_mais">Leia mais</a>
+                                    </div>
+                                </div>
+                            </a>
+                        </article>
+                        <article class="container flex flex-row">
+                            <a href="artigo-12.html" target="_blank">
+                                <div class="post_img">
+                                    <img src="images/studyingwmusic.jpeg">
+                                </div>
+                                <div class="post_title post-title-content div-row">
+                                    Ouvir música para concentrar é eficaz?
+                                    <div class="post_resume post-content">
+                                        Veja como a música vai te ajudar e seus benefícios para a concentração.
+                                        <br>
+                                        Temos três motivos para que te mostra como a concentração é sucessida com
+                                        música.
+                                        <a href="" target="_blank" class="leia_mais">Leia mais</a>
+                                    </div>
+                                </div>
+                            </a>
+                        </article>
+                        <article class="container flex flex-row">
+                            <a href="artigo-13.html" target="_blank">
+                                <div class="post_img">
+                                    <img src="images/focovestibular.jpg">
+                                </div>
+                                <div class="post_title post-title-content div-row">
+                                    Métodos para se concentrar na hora de estudar para o vestibular!
+                                    <div class="post_resume post-content">
+                                        Saiba como se organizar e focar nos estudos, Vestibulando!
+                                        <br>
+                                        O final do ano está se aproximando e, junto com ele, aquela tensão dos
+                                        vestibulares. Mas não se preocupe! A organização é o que importa na hora de ter
+                                        sucesso no foco dos estudos! Entenda como conseguir a seguir:
+                                        <a href="" target="_blank" class="leia_mais">Leia mais</a>
+                                    </div>
+                                </div>
+                            </a>
+                        </article>
+                        <article class="container flex flex-row">
+                            <a href="artigo-14.html" target="_blank">
+                                <div class="post_img">
+                                    <img src="images/focus.jpg">
+                                </div>
+                                <div class="post_title post-title-content div-row">
+                                     5 formas de melhorar a concentração e o foco
+                                    <div class="post_resume post-content">
+                                        O maior detetive fictício do mundo é alguém que conhece o valor da concentração, e pode
+                                        ser objeto de inspiração. Nas histórias escritas pelo autor Arthur Ignatius Conan Doyle,
+                                        podemos perceber que quando um novo caso é apresentado... <a href="artigo-14.html" target="_blank" class="leia_mais">Leia mais</a>
+                                    </div>
+                                </div>
+                            </a>
+                        </article>
+                        <article class="container flex flex-row">
+                            <a href="artigo-15.html" target="_blank">
+                                <div class="post_img">
+                                    <img src="images/atention.jpg">
+                                </div>
+                                <div class="post_title post-title-content div-row">
+                                    Concentração: o que é, como melhorar a sua e quais transtornos podem atrapalhar
+                                    <div class="post_resume post-content">
+                                        Para quem estuda, a capacidade de se concentrar é fundamental. Mas apesar de ser
+                                        importante, manter a concentração nem sempre é fácil — qualquer um que já precisou
+                                        estudar um monte na véspera de uma prova sabe bem disso. <a href="artigo-15.html" target="_blank" class="leia_mais">Leia mais</a>
+                                    </div>
+                                </div>
+                            </a>
+                        </article>
                     </div>
-                    <div class="fonte-artigo">
-                        <a target="_blank" href="">Fonte: </a>
-                    </div>
-                </div> 
-                <div class="coment">
-                    <div id="disqus_thread"></div>
-                    <script>
-                        /**
-                        *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-                        *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
-                        /*
-                        var disqus_config = function () {
-                        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-                        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-                        };
-                        */
-                        (function() { // DON'T EDIT BELOW THIS LINE
-                        var d = document, s = d.createElement('script');
-                        s.src = 'https://concentre-se.disqus.com/embed.js';
-                        s.setAttribute('data-timestamp', +new Date());
-                        (d.head || d.body).appendChild(s);
-                        })();
-                    </script>
-                    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-                </div>   
             </article>
         </div>
     </section>
     <footer>
-        <p>Copyright &COPY; Grupo2 2021</p>       
+        <p>Copyright &COPY; Grupo2 2021</p>
     </footer>
+    <script type="text/javascript" src="main.js"></script>
 </body>
+
 </html>

@@ -1,51 +1,71 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <title>Concentre-se</title>
 </head>
-
 <body>
-    <header>
+
+    <header class="header-mobile">
         <div class="container">
             <div class="logo">
-                <a href="index.html" class="img_logo">
+                <a href="index.html" class="img_logo" target="_blank">
                     <img src="images/logo3.png">
-                </a>
+                </a>     
             </div>
+            <!--15/11-->
+            <div id="button-buscar-nav">
+                <!-- <img src="images/busca-logo.png" alt=""/> -->
+                <a><input type="text" placeholder="Buscar..."></a>     
+            </div>
+            <!--15/11-->
             <div class="menu">
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Início</a></li>
+                <nav id="nav-mobile">
+                    <button id="btn-mobile">
+                        <span id="hamburguer"></span>
+                    </button>
+                    <ul class="menu-mobile">
+                        <li><a href="index.html" target="_blank">Início</a></li>
                         <li><a href="conteudos.html">Conteúdos</a></li>
-                        <li><a href="">Fale conosco</a></li>
+                        <li><a href="faleconosco.html" target="_blank">Fale conosco</a></li>
                     </ul>
                 </nav>
             </div>
         </div>
-    </header>
-    </section>
+    </header>   
     <section id="geral">
         <div class="container">
-            <section>
-                <div class="conteudo flex">
-                    <div>
-                        <div>
-                            <img src="images/focus.jpg" class="img-artigo-14">
-                            <!-- alterar o número da classe e altera no css -->
+            <article id="artigos">
+                <div class="conteudo-artigos">
+                    <div class="img_artigo">
+                        <img src="images/focus.jpg"><br>
+                        <div class="redes-sociais">
+                            <p class="redes-sociais"></p>
+                             <ul>
+                                <a href="https://www.facebook.com/sharer/sharer.php?u="  class="fab fa-facebook"></i></a> 
+                                <a href="https://twitter.com/intent/tweet?url=[URL]&text=[TEXTO-DO-TWEET]&via=[NOME-DE-USUARIO-DO-TWITTER]&hashtags=[LISTA-DE-HASHTAGS]"  class="fab fa-twitter"></i></a>
+                                <a href="https://api.whatsapp.com/send?text="class="fab fa-whatsapp"></i></a>
+                                <a href="https://t.me/share/url?url={url}&text={text}" class="fab fa-telegram-plane"></i></a>
+                             </ul> 
+                           </div>
                         </div>
+                           <a href="javascript:void(0)" onclick="share()">
+                            <img alt=""class="Compartilhamento">
+                        </a>
 
-                        <h1 class="article-title14">5 formas de melhorar a concentração e o foco</h1>
-                        <div class="article-content">
+                    <h1 id="article-title">5 formas de melhorar a concentração e o foco</h1>
+                    <div class="article-content">
 
-                            <div class="subtitle-title">Malone Rodrigues, responsável pelo projeto Meditação e Cultivo
-                                da Interioridade da PUCRS, explica o que é concentração e sugere formas de melhorar essa
-                                habilidade</div>
-                        <br>
+                       
+                        <div class="subtitle-title">Malone Rodrigues, responsável pelo projeto Meditação e Cultivo
+                            da Interioridade da PUCRS, explica o que é concentração e sugere formas de melhorar essa
+                            habilidade</div>
+                        
+                            <br>
                             <p>
                                 Quando conversamos sobre concentração, é importante compreender o que é a atenção.
                                 Segundo o psicólogo Robert J. Sternberg, ela pode ser definida como “o fenômeno pelo
@@ -74,7 +94,7 @@
                                 Pastoral e Solidariedade da PUCRS, para ajudar no cultivo da sua concentração.
                             </p>
                         <br>
-                            <h2>1. Inspire-se em Sherlock Holmes</h2>
+                            <h2 class="h2-art_14">1. Inspire-se em Sherlock Holmes</h2>
                         <br>
                             <p>
                                 O maior detetive fictício do mundo é alguém que conhece o valor da concentração, e pode
@@ -86,7 +106,7 @@
                                 nossa mente aquilo que estamos fazendo e pensando.</b>
                             </p>
                         <br>
-                            <h3>2. Preste atenção no que está fazendo</h3>
+                            <h2 class="h2-art_14">2. Preste atenção no que está fazendo</h2>
                         <br>
                             <p>
                                 Vamos lá! Até chegar nesta linha, sua atenção foi capturada quantas vezes? Pensamentos,
@@ -97,7 +117,7 @@
                             </p>
                             </p>
                         <br>
-                            <h3>3. Treine seu cérebro</h3>
+                            <h2 class="h2-art_14">3. Treine seu cérebro</h2>
                         <br>
                             <p>
                                 Seu cérebro é como seus músculos: precisa ser treinado. Estimule sua mente com jogos.
@@ -106,15 +126,15 @@
                                 CogniFit.
                             </p>
                         <br>
-                            <h3>4. Elimine distrações</h3>
+                            <h2 class="h2-art_14">4. Elimine distrações</h2>
                         <br>
                             <p>
                                 Não é possível encontrar uma solução “para ontem”, nada na vida funciona em um estalar
                                 de dedos. Tudo exige processo, calma e tempo. No entanto, você pode colaborar com sua
                                 atenção. Retire as distrações: desligue o celular (ou o coloque no modo avião) e
-                                desative as notificações. Lembre-se da dica 2! <b>Quando for fazer algo, foque nisso.
+                                desative as notificações. Lembre-se da dica 2! <strong>Quando for fazer algo, foque nisso.
                                 Esqueça o mundo externo e, quando se distrair, escolha voltar para a atividade que está
-                                executando.</b>
+                                executando.</strong>
                             </p>
                         <br>
                             <p> Uma maneira muito legal de fazer isso é o método Pomodoro. A Técnica Pomodoro é um
@@ -123,7 +143,7 @@
                                 minutos, separados por breves intervalos. Isso ajuda você a focar sua atenção.
                             </p>
                         <br>
-                            <h3>5. Pratique a meditação</h3>
+                            <h2 class="h2-art_14">5. Pratique a meditação</h2>
                         <br>
                             <p>
                                 Primeiro precisamos entender que a meditação é sim uma prática presente em várias
@@ -159,15 +179,14 @@
                                 da meditação e de como ela afeta de maneira positiva a atividade cerebral e o
                                 desempenho cognitivo. Então, busque meditar! </b>
                             </p>
-                        <br>
 
-                            <a href="https://www.pucrs.br/blog/5-formas-de-melhorar-a-concentracao-e-o-foco/"
-                                class="bibliografia" target="_blank">Fonte:
-                                https://www.pucrs.br/blog/5-formas-de-melhorar-a-concentracao-e-o-foco/</a>
+                        <br><br>
 
-                        </div>
                     </div>
-                </div>
+                    <div class="fonte-artigo">
+                        <a target="_blank" href="https://www.pucrs.br/blog/5-formas-de-melhorar-a-concentracao-e-o-foco/">Fonte: PUCRS</a>
+                    </div>
+                </div> 
                 <div class="coment">
                     <div id="disqus_thread"></div>
                     <script>
@@ -180,23 +199,21 @@
                         this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
                         };
                         */
-                        (function () { // DON'T EDIT BELOW THIS LINE
-                            var d = document, s = d.createElement('script');
-                            s.src = 'https://concentre-se.disqus.com/embed.js';
-                            s.setAttribute('data-timestamp', +new Date());
-                            (d.head || d.body).appendChild(s);
+                        (function() { // DON'T EDIT BELOW THIS LINE
+                        var d = document, s = d.createElement('script');
+                        s.src = 'https://concentre-se.disqus.com/embed.js';
+                        s.setAttribute('data-timestamp', +new Date());
+                        (d.head || d.body).appendChild(s);
                         })();
                     </script>
-                    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments
-                            powered by Disqus.</a></noscript>
-                </div>
+                    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                </div>   
+            </article>
         </div>
     </section>
-    </div>
-    </section>
     <footer>
-        <p>Copyright &COPY; Grupo2 2021</p>
+        <p>Copyright &COPY; Grupo2 2021</p>       
     </footer>
+    <script type="text/javascript" src="main.js"></script>
 </body>
-
 </html>
