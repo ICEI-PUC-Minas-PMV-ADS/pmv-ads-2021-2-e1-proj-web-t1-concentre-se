@@ -1,12 +1,12 @@
-# Template padrão do site
+## Wireframes
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="4-Metodologia.md"> Metodologia</a>
+A tela do sistema abaixo apresenta uma estrutura comum, que é retratada na Figura 4. Nela, existem 3 grandes blocos, descritos a seguir. São eles:
 
-Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
+●	Cabeçalho - local onde são dispostos elementos fixos de identidade (logo), botão Home, botão para escolher conteúdos, campo de busca e botão fale conosco.
 
-> **Links Úteis**:
->
-> - [CSS Website Layout (W3Schools)](https://www.w3schools.com/css/css_website_layout.asp)
-> - [Website Page Layouts](http://www.cellbiol.com/bioinformatics_web_development/chapter-3-your-first-web-page-learning-html-and-css/website-page-layouts/)
-> - [Perfect Liquid Layout](https://matthewjamestaylor.com/perfect-liquid-layouts)
-> - [How and Why Icons Improve Your Web Design](https://usabilla.com/blog/how-and-why-icons-improve-you-web-design/)
+●	Conteúdo - apresenta a lista de conteúdos da tela em questão;
+
+●	Rodapé – apresenta informações dos créditos aos desenvolvedores do site.
+
+![Fluxo 01](https://thumbs2.imgbox.com/30/ee/BYhZy8fx_t.png)
+<br/>
