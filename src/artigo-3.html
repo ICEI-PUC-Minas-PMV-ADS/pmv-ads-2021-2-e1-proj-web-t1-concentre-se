@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <title>Concentre-se</title>
+</head>
+<body>
+
+    <header class="header-mobile">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html" class="img_logo" target="_blank">
+                    <img src="images/logo3.png">
+                </a>     
+            </div>
+            <!--15/11-->
+            <div id="button-buscar-nav">
+                <!-- <img src="images/busca-logo.png" alt=""/> -->
+                <a><input type="text" placeholder="Buscar..."></a>     
+            </div>
+            <!--15/11-->
+            <div class="menu">
+                <nav id="nav-mobile">
+                    <button id="btn-mobile">
+                        <span id="hamburguer"></span>
+                    </button>
+                    <ul class="menu-mobile">
+                        <li><a href="index.html" target="_blank">Início</a></li>
+                        <li><a href="conteudos.html">Conteúdos</a></li>
+                        <li><a href="faleconosco.html" target="_blank">Fale conosco</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>   
+    <section id="geral">
+        <div class="container">
+            <article id="artigos">
+                <div class="conteudo-artigos">
+                    <div class="img_artigo">
+                        <img src="images/anxiety.png"><br>
+
+                    <div class="redes-sociais">
+                        <p class="redes-sociais"></p>
+                         <ul>
+                            <a href="https://www.facebook.com/sharer/sharer.php?u="  class="fab fa-facebook"></i></a> 
+                            <a href="https://twitter.com/intent/tweet?url=[URL]&text=[TEXTO-DO-TWEET]&via=[NOME-DE-USUARIO-DO-TWITTER]&hashtags=[LISTA-DE-HASHTAGS]"  class="fab fa-twitter"></i></a>
+                            <a href="https://api.whatsapp.com/send?text="class="fab fa-whatsapp"></i></a>
+                            <a href="https://t.me/share/url?url={url}&text={text}" class="fab fa-telegram-plane"></i></a>
+                         </ul> 
+                       </div>
+                    </div>
+                       <a href="javascript:void(0)" onclick="share()">
+                        <img alt=""class="Compartilhamento">
+                    </a>
+
+                    <h1 id="article-title">Por que a ansiedade pode atrapalhar a capacidade de concentração?</h1>
+                    <div class="article-content">
+                        <br>
+                             <p>
+                                O aumento dos níveis de ansiedade é um problema de saúde que deve ser tratado com a ajuda
+                                de um psiquiatra. Existem, na verdade, diversos transtornos psiquiátricos, chamados de
+                                distúrbios de ansiedade, que se caracterizam por esse exagero da ansiedade, que pode
+                                gerar também, entre outros sintomas, uma piora na capacidade de concentração.
+                             </p>
+                        <br>
+                            <h2>Diminuição da concentração é um dos sintomas dos transtornos de ansiedade</h2>
+                        <br>
+                                <p>
+                                “A falta de concentração é um dos critérios diagnósticos do transtorno de ansiedade
+                                generalizada, assim como preocupação excessiva, irritabilidade, alteração de sono e
+                                inquietação”, informa a psiquiatra Paula Alves. O indivíduo se preocupa demais com seus
+                                problemas e, muitas vezes, apresenta sintomas físicos, como tremedeiras e tensão
+                                muscular. 
+                              
+                                Com tanta informação circulando na mente, é difícil para o paciente ansioso deixar as
+                                preocupações de lado e se concentrar em apenas uma atividade. Eventos de grande impacto,
+                                como perda de emprego, morte na família e divórcio, associados à ansiedade, também podem
+                                atrapalhar a capacidade de concentração e devem ser analisados por um médico.
+                             </p>  
+                        <br>
+                            <h2>Falta de concentração atrapalha no rendimento no trabalho</h2>
+                        <br>
+                             <p>
+                                A dificuldade de concentração pode ser percebida por amigos, familiares e colegas de
+                                estudo e trabalho, já que o organismo dá alguns sinais. “O indivíduo pode apresentar
+                                queda no rendimento no trabalho ou na escola, dificuldade de concluir tarefas e
+                                sensações de ‘branco na mente'”, alerta a especialista.
+
+                                A melhor forma de tratar a dificuldade de se concentrar é procurar o auxílio de um
+                                psiquiatra. “Com o tratamento correto e controle dos sintomas, espera-se uma consequente
+                                melhora da concentração”, afirma Paula. O tratamento da ansiedade é feito com
+                                psicoterapia e uso de medicações, mas hábitos saudáveis, como prática de yoga e
+                                exercícios físicos, também são importantes.
+                             </p>
+                        <br>
+                             <p>
+                                <b>Dra. Paula Alves</b> é psiquiatra, formada em Medicina pela Universidade do Estado do Rio de
+                                Janeiro (UERJ) e atende no Rio de Janeiro. CRM-RJ: 52-98519-8
+                             </p>
+                        <br>
+                    </div>
+                    <div class="fonte-artigo">
+                        <a target="_blank" href="https://cuidadospelavida.com.br/saude-e-tratamento/ansiedade/ansiedade-capacidade-concentracao">Fonte: cuidadospelavida</a>
+                       
+                        <br><br>
+
+                    </div>
+                </div> 
+                <div class="coment">
+                    <div id="disqus_thread"></div>
+                    <script>
+                        /**
+                        *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                        *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+                        /*
+                        var disqus_config = function () {
+                        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+                        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                        };
+                        */
+                        (function() { // DON'T EDIT BELOW THIS LINE
+                        var d = document, s = d.createElement('script');
+                        s.src = 'https://concentre-se.disqus.com/embed.js';
+                        s.setAttribute('data-timestamp', +new Date());
+                        (d.head || d.body).appendChild(s);
+                        })();
+                    </script>
+                    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                </div>   
+            </article>
+        </div>
+    </section>
+    <footer>
+        <p>Copyright &COPY; Grupo2 2021</p>       
+    </footer>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+</html>
