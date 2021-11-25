@@ -447,11 +447,6 @@ footer p {
         text-align:justify;
         margin-top: 10px;
     }
-    div img{
-        height: auto;
-        width: 150px;
-    }
-
 }
 /*Button de Compartilhamento */
 .rede-social p{
@@ -675,7 +670,6 @@ ul {
     .area_contato ul{
         font-size: 20px;
         margin-top:20px;
-        margin-left: 80px;
         line-height: 15px;
     }
     #img_contato img{
