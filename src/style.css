@@ -447,6 +447,10 @@ footer p {
         text-align:justify;
         margin-top: 10px;
     }
+    div img{
+        height: auto;
+        width: 150px;
+    }
 
 }
 /*Button de Compartilhamento */
@@ -644,4 +648,43 @@ ul {
       font-size: 1.8em;
       font-weight: 600;
       font-family: "Rubik";
+    }
+
+    .area_contato{
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: stretch;
+    }
+    .area_contato h1{
+        margin-top: 100px;
+        margin-bottom: 10px;
+        font-size: 55px;
+        font-family: sans-serif, Arial, Helvetica, ;
+        text-transform:uppercase;
+        color:#0c2736;
+    }
+    .area_contato p{
+        align-items: inherit;
+        font-size: 20px;
+        margin-top: 15px;
+        margin-left: 15px;
+        line-height: 30px;
+    }
+    .area_contato ul{
+        font-size: 20px;
+        margin-top:20px;
+        margin-left: 80px;
+        line-height: 15px;
+    }
+    #img_contato img{
+        margin-top: 48px;
+        height: 517px;
+        width: auto;
+    }
+    #icone{
+        padding:2px;
+        height:20px;
+        width: auto;
     }
