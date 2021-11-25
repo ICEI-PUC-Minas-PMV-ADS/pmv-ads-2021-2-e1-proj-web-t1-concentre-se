@@ -606,10 +606,19 @@ color: #ebedf9;
       font-size: 1.2em;
       font-family: "Nunito", sans-serif;
     }
-
-    .article-title-6{
-
+    
+    .contato{
+        border: 1px solid #c2c2c2 ;
+        border-radius: 10px;
     }
+ul {
+    list-style: none;
+    font-size: 20px;   
+}
+
+/*.article-title-6 {
+    
+}*/
 
     .p_6 {
       font-family: "Rubik", sans-serif;
