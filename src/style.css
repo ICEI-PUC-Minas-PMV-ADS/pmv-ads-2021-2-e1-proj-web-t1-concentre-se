@@ -606,3 +606,15 @@ color: #ebedf9;
       font-size: 1.2em;
       font-family: "Nunito", sans-serif;
     }
+    
+    .contato{
+        border: 1px solid #c2c2c2 ;
+        border-radius: 10px;
+    }
+ul {
+    list-style: none;
+    font-size: 20px;   
+}
+
+    
+    
