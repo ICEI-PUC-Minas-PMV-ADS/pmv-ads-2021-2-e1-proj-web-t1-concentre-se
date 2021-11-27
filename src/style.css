@@ -95,16 +95,25 @@ nav a:hover{
     text-transform:uppercase;
     color:#0c2736;
 }
-#button-buscar input{
+#button-buscar{
     width: 420px;
     height: 40px;
-    border-radius: 25px;
+
+    /* position: relative; */
+}
+
+.gsc-control-cse {
+    border-radius: 50px;
     border-style: none;
     margin-top: 25px;
     padding: 0 20px;
     text-transform: uppercase;
-    /* position: relative; */
 }
+
+.gsc-control-wrapper-cse {
+    
+}
+
 /* #button-buscar img{
   width: 25px;
   position: absolute;
@@ -305,7 +314,7 @@ footer p {
  }
     
 
-}
+
 .article-title{
     margin-top:25px;
     margin-bottom: 15px;
