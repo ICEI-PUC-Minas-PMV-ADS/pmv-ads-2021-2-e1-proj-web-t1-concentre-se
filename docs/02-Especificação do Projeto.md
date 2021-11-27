@@ -64,7 +64,7 @@ Os requisitos não-funcionais descrevem características de caráter mais técni
 |RNF-003| O site deve ter bom nível de contraste entre os elementos da tela em conformidade. | MÉDIA | 
 |RNF-004| O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge). | ALTA | 
 |RNF-005| O site deve atender todos os quesitos de direitos autorais. | ALTA | 
-|RNF-006| O site deve orientar, ao fim de cada publicação que, caso o usuário não tenha conseguido amenizar/solucionar sua dificuldade, é recomendado que procure um especialista da área. | MÉDIA |
+|RNF-006| O site deve orientar, ao fim de cada publicação relacionada a doenças que, caso o usuário não tenha conseguido amenizar/solucionar sua dificuldade, é recomendado que procure um especialista da área. | MÉDIA |
 
 ## Restrições
 
