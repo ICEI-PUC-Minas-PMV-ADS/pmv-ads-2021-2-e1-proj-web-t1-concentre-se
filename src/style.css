@@ -245,7 +245,12 @@ footer p {
     line-height: 29px;
     color: rgba(62, 96, 119, 0.7);
 }
-
+.article-content01{
+    font-size: 20px;
+    font-family: sans-serif;
+    line-height: 29px;
+    color: rgba(7, 6, 6, 0.7);
+}
 .artigo-p {
     font-size: 20px;
 }
@@ -286,19 +291,6 @@ footer p {
     color: lightcoral;
 
 }
-.img_artigo-8 img{
-    width:600px;
-    height: 500px;
-    margin-top: 10px;
-    border-radius: 7px;
-}
-.img_artigo-8{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 30px;
-}
-
 .article-title{
     margin-top:25px;
     margin-bottom: 15px;
