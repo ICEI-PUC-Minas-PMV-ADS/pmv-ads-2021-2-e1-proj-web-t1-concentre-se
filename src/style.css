@@ -181,6 +181,13 @@ article .post_title {
     color:#000;
     padding: 0 5px;
 }
+article .post_title08 {
+    margin-top:60px;
+    margin-bottom: 30px;
+    font-size:20px;
+    color:#000;
+    padding: 0 5px;
+}
 article .post_resume{
     color:#000;
     line-height: 20px;
@@ -239,6 +246,22 @@ footer p {
     align-items: center;
     font-family: sans-serif;
 }
+.article-content{
+    font-size: 20px;
+    font-family: sans-serif;
+    line-height: 29px;
+    color: rgba(62, 96, 119, 0.7);
+}
+.article-content01{
+    font-size: 20px;
+    font-family: sans-serif;
+    line-height: 29px;
+    color: rgba(7, 6, 6, 0.7);
+}
+.artigo-p {
+    font-size: 22px;
+}
+
 #artigos{
     margin: 0 0 0;
     padding: 0;
@@ -273,21 +296,16 @@ footer p {
 }
 #hover:hover{
     color: lightcoral;
+}
+#hover-MDC:hover{
+  color: rgb(195, 131, 28);
+ }
+ .MDC {
+     color:#1107a5
+ }
+    
 
 }
-.img_artigo-8 img{
-    width:600px;
-    height: 500px;
-    margin-top: 10px;
-    border-radius: 7px;
-}
-.img_artigo-8{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 30px;
-}
-
 .article-title{
     margin-top:25px;
     margin-bottom: 15px;
@@ -447,7 +465,6 @@ footer p {
         text-align:justify;
         margin-top: 10px;
     }
-
 }
 /*Button de Compartilhamento */
 .rede-social p{
@@ -606,10 +623,19 @@ color: #ebedf9;
       font-size: 1.2em;
       font-family: "Nunito", sans-serif;
     }
-
-    .article-title-6{
-
+    
+    .contato{
+        border: 1px solid #c2c2c2 ;
+        border-radius: 10px;
     }
+ul {
+    list-style: none;
+    font-size: 20px;   
+}
+
+/*.article-title-6 {
+    
+}*/
 
     .p_6 {
       font-family: "Rubik", sans-serif;
@@ -635,4 +661,75 @@ color: #ebedf9;
       font-size: 1.8em;
       font-weight: 600;
       font-family: "Rubik";
+    }
+
+    .area_contato{
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: stretch;
+    }
+    .area_contato h1{
+        margin-top: 100px;
+        margin-bottom: 10px;
+        font-size: 55px;
+        font-family: sans-serif, Arial, Helvetica, ;
+        text-transform:uppercase;
+        color:#0c2736;
+    }
+    .area_contato p{
+        align-items: inherit;
+        font-size: 20px;
+        margin-top: 15px;
+        margin-left: 15px;
+        line-height: 30px;
+    }
+    .area_contato ul{
+        font-size: 20px;
+        margin-top:20px;
+        line-height: 15px;
+    }
+    #img_contato img{
+        margin-top: 48px;
+        height: 517px;
+        width: auto;
+    }
+    #icone{
+        padding:2px;
+        height:20px;
+        width: auto;
+    }
+
+    
+    @media only screen and (max-width: 600px) {
+
+        .area_contato, #img_contato {
+            width: 400px;
+        }
+        #img_contato img{
+            width: 400px;
+            position: initial;
+        }
+
+        .area_contato {
+            position: absolute;
+            top: 500px;
+            bottom: 10px;
+        }
+
+        .area_contato h1 {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .area_contato p {
+            text-align: center;
+        }
+        footer {
+            position: relative;
+            margin-top: 500px;
+
+        }
+
     }
