@@ -200,6 +200,18 @@
         <p>Copyright &COPY; Grupo2 2021</p>
     </footer>
     <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+        <script>function share(){
+            if (navigator.share !== undefined) {
+                navigator.share({
+                    title: 'Come do Artigo',
+                    text: 'Texto em questão',
+                    url: 'https: html',
+                })
+                .then(() => console.log('Successful share'))
+                .catch((error) => console.log('Error sharing', error));
+            }
+        }</script>
 </body>
 
 </html>
