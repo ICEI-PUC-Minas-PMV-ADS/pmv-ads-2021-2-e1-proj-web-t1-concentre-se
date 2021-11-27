@@ -181,6 +181,13 @@ article .post_title {
     color:#000;
     padding: 0 5px;
 }
+article .post_title08 {
+    margin-top:60px;
+    margin-bottom: 30px;
+    font-size:20px;
+    color:#000;
+    padding: 0 5px;
+}
 article .post_resume{
     color:#000;
     line-height: 20px;
@@ -245,7 +252,12 @@ footer p {
     line-height: 29px;
     color: rgba(62, 96, 119, 0.7);
 }
-
+.article-content01{
+    font-size: 20px;
+    font-family: sans-serif;
+    line-height: 29px;
+    color: rgba(7, 6, 6, 0.7);
+}
 .artigo-p {
     font-size: 22px;
 }
@@ -286,19 +298,6 @@ footer p {
     color: lightcoral;
 
 }
-.img_artigo-8 img{
-    width:600px;
-    height: 500px;
-    margin-top: 10px;
-    border-radius: 7px;
-}
-.img_artigo-8{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 30px;
-}
-
 .article-title{
     margin-top:25px;
     margin-bottom: 15px;
@@ -692,4 +691,37 @@ ul {
         padding:2px;
         height:20px;
         width: auto;
+    }
+
+    
+    @media only screen and (max-width: 600px) {
+
+        .area_contato, #img_contato {
+            width: 400px;
+        }
+        #img_contato img{
+            width: 400px;
+            position: initial;
+        }
+
+        .area_contato {
+            position: absolute;
+            top: 500px;
+            bottom: 10px;
+        }
+
+        .area_contato h1 {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .area_contato p {
+            text-align: center;
+        }
+        footer {
+            position: relative;
+            margin-top: 500px;
+
+        }
+
     }
