@@ -239,6 +239,17 @@ footer p {
     align-items: center;
     font-family: sans-serif;
 }
+.article-content{
+    font-size: 20px;
+    font-family: sans-serif;
+    line-height: 29px;
+    color: rgba(62, 96, 119, 0.7);
+}
+
+.artigo-p {
+    font-size: 20px;
+}
+
 #artigos{
     margin: 0 0 0;
     padding: 0;
