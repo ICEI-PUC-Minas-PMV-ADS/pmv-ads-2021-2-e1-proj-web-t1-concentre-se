@@ -693,3 +693,36 @@ ul {
         height:20px;
         width: auto;
     }
+
+    
+    @media only screen and (max-width: 600px) {
+
+        .area_contato, #img_contato {
+            width: 400px;
+        }
+        #img_contato img{
+            width: 400px;
+            position: initial;
+        }
+
+        .area_contato {
+            position: absolute;
+            top: 500px;
+            bottom: 10px;
+        }
+
+        .area_contato h1 {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .area_contato p {
+            text-align: center;
+        }
+        footer {
+            position: relative;
+            margin-top: 500px;
+
+        }
+
+    }
