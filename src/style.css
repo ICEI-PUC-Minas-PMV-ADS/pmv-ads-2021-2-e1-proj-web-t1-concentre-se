@@ -296,6 +296,14 @@ footer p {
 }
 #hover:hover{
     color: lightcoral;
+}
+#hover-MDC:hover{
+  color: rgb(195, 131, 28);
+ }
+ .MDC {
+     color:#1107a5
+ }
+    
 
 }
 .article-title{
