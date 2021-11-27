@@ -873,7 +873,6 @@ ul {
         line-height: 26px;
         align-items: center;
         padding: 10px;
-        speak: none;
         display: inline-block;
         text-decoration: inherit;
         text-align: center;
@@ -963,7 +962,6 @@ ul {
         font: normal normal 400 26px font-sb;
         align-items: center;
         padding: 5px;
-        speak: none;
         display: inline-block;
         text-decoration: inherit;
         text-align: center;
