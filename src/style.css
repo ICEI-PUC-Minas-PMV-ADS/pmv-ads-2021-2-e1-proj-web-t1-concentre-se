@@ -168,6 +168,18 @@ article .post_img img{
     height: auto;
     padding: 0 5px;
 }
+article .post_img5 img{
+    margin-top: 10px;
+    width: 290px;
+    height: 193px;
+    padding: 0 5px;
+}
+article .post_img6 img{
+    margin-top: 10px;
+    width: 290px;
+    height: 193px;
+    padding: 0 5px;
+}
 .margin {
     margin-bottom: 10px;
 }
