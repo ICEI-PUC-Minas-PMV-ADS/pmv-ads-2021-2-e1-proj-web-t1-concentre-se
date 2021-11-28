@@ -18,7 +18,7 @@ Ao realizar os testes baseados nos requisitos do Plano de Testes de Software, o 
 Figura-01 Tela Inicial
 </br>
 
-![HomeResponsive](https://thumbs2.imgbox.com/6c/02/CMwblbnX_t.jpg)
+![HomePageResponsiva](https://thumbs2.imgbox.com/0a/62/QQKgnNGX_t.jpg)
 </br>
 Figura-02 Tela Inicial Responsiva
 </br>
@@ -26,16 +26,31 @@ Figura-02 Tela Inicial Responsiva
 ![HomePagePesquisa](https://thumbs2.imgbox.com/94/5c/S0AZ7qY0_t.png)
 </br>
 Figura-03 Tela de Inicial/Pesquisa/Url
-
-
-
+</br>
 
 #### CT-02-Página Conteúdo ####
 
 Ao entrar na pagina de Conteudos o usuario relatou que a todas as funçoes estão funcionamento corretamente,e ao clicar nos artigos o mesmo conseguiu acessar todas as paginas com êxito.
 
-print
+![Conteudo-Telainicial](https://thumbs2.imgbox.com/59/84/TkEDN6jA_t.png)
+</br>
+Figura-04 HomePage/Conteudos
+</br>
 
+![Conteudos](https://thumbs2.imgbox.com/f9/38/g7QZARLR_t.png)
+</br>
+Figura-05 Conteudos
+</br>
+
+![Pesquisa/Conteudos](https://thumbs2.imgbox.com/18/1e/jox7PFEG_t.png)
+</br>
+Figura-06 Conteudos/Pesquisar
+</br>
+
+![ConteudosResponsivos](https://thumbs2.imgbox.com/f3/38/MjtrDcAQ_t.jpg)
+</br>
+Figura-07 Conteudos Responsivos
+</br>
 
 #### CT-03-Página Fale Conosco ####
 
