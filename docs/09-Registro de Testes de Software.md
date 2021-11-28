@@ -12,7 +12,22 @@ Abaixo temos os casos de testes especificado por seção, bem como os pontos que
 #### CT-01-Página Principal ####
 Ao realizar os testes baseados nos requisitos do Plano de Testes de Software, o conteudo foi analisado e se  encontra em pleno funcionamento.
 
-print
+
+![HomePage](https://thumbs2.imgbox.com/b8/42/5yd15jjM_t.jpg)
+</br>
+Figura-01 Tela Inicial
+</br>
+
+![HomeResponsive](https://thumbs2.imgbox.com/6c/02/CMwblbnX_t.jpg)
+</br>
+Figura-02 Tela Inicial Responsiva
+</br>
+
+![HomePagePesquisa](https://thumbs2.imgbox.com/94/5c/S0AZ7qY0_t.png)
+</br>
+Figura-03 Tela de Inicial/Pesquisa/Url
+
+
 
 
 #### CT-02-Página Conteúdo ####
