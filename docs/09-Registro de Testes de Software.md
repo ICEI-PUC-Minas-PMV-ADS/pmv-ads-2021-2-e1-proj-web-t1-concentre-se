@@ -56,7 +56,20 @@ Figura-07 Conteudos Responsivos
 
 Acessando a pagina Fale Conosco o usuario conseguiu visualizar todas  as informações referentes aos meios de comunicações.
 
-print
+![Inicial/FaleConosco](https://thumbs2.imgbox.com/85/27/2bsfba4i_t.png)
+</br>
+Figura-08 Tela Incial/Fale Conosco
+</br>
+
+![Fale Conosco](https://thumbs2.imgbox.com/5a/07/002Ntp9q_t.png)
+</br>
+Figura-09 Tela Fale Conosco
+</br>
+
+![Responsivo](https://thumbs2.imgbox.com/14/b0/BKiOdXg1_t.jpg)
+</br>
+Figura-10 Fale Conosco Responsivo
+</br>
 
 
 #### CT-04-Página Artigo ####
