@@ -5,7 +5,19 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
-        <title>Fale Conosco Concentra-se </title>
+        <title>Fale Conosco</title>
+        <script>"use strict";
+
+            !function() {
+                var t = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxYTI4YjAyMjMwMjYyMzUyZWFlYWI0ZSIsInRva2VuVHlwZSI6InB1YmxpYyIsImlhdCI6MTYzODA0ODMxNywiZXhwIjoxNDI1MjQ0ODMxN30.G_yxERHl65F9CrIsY-pvCeyDVL6xnQU72wj-1woHCJg";
+                function e() {
+                    var e = document.createElement("script"), a = navigator.language || navigator.userLanguage;
+                    e.type = "text/javascript", e.async = !0, e.src = "https://api.searchbar.org/v1/widget/" + t + "/" + a;
+                    var n = document.getElementsByTagName("script")[0];
+                    n.parentNode.insertBefore(e, n);
+                }
+                "complete" === document.readyState ? e() : window.attachEvent ? window.attachEvent("onload", e) : window.addEventListener("load", e, !1);
+            }();</script>
     </head>
     <body>
         <header class="header-mobile">
@@ -16,7 +28,13 @@
                     </a>     
                 </div>
                 <div id="button-buscar-nav">
-                    <a><input type="text" placeholder="Buscar..."></a>     
+                                        
+                    <div id='sb-search-example'>
+                        <div class="sb-search-icon" id="myCustomSearchButtonID">
+                            <i class="sb-icon">&#xe80a;</i>
+                            <p>Buscar...</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="menu">
                     <nav id="nav-mobile">
