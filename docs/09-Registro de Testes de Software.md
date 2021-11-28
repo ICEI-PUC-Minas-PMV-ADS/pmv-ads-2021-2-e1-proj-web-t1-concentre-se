@@ -76,18 +76,50 @@ Figura-10 Fale Conosco Responsivo
 
 O usuario acessando a pagina principal, ao clicar no artigo 01, o memso obteve sucesso no carregamento da pagina e na visualização completa do arquivo.
 
-print
+![InicialArtigos](https://thumbs2.imgbox.com/f3/87/73fXctEX_t.png)
+</br>
+Figura-11 Tela Inicial/Artigos
+</br>
+
+![Artigo](https://thumbs2.imgbox.com/09/4b/tpjTSSSo_t.png)
+</br>
+Figura-12 Tela de Artigos
+</br>
+
+
+![ArtigoResponsive](https://thumbs2.imgbox.com/9a/e7/e63g95UP_t.jpg)
+</br>
+Figura-13 Tela de Artigo Responsiva
+</br>
+
 
 #### CT-05-Responsividade, compatibilidade, cores e contraste ####
 
 Ao entrar em uma plataforma mobile, o usuario relatou que o site se manteve responsivo, conseguiu compartilhar dentro de todos os mecanismos oferecidos pelo site.O mesmo relatou que as cores do site ficaram bem detalhadas e confortaveis à visão do mesmo.
 
-print
+![ResponsivePc](https://thumbs2.imgbox.com/2a/ae/lrUTfbc0_t.jpg)
+</br>
+Figura-14 Tela Responsiva para Versão Desktop
+</br>
+
+
+![ResponsivaMobile](https://thumbs2.imgbox.com/42/2a/n2TPWIN0_t.jpg)
+</br>
+Figura-15 Tela Responsiva Para Versão Mobile
+</br>
 
 #### CT-06-Acessibilidade GitHub Pages ####.
 
 O site foi hospedado com êxito, com a Url em pleno funcionamento podendo ser acessada por todos os navegadores.
 
-Print
+![Hospedagem](https://thumbs2.imgbox.com/e0/4e/xjsVKgkr_t.png)
+</br>
+Figura-16 Site Hospedado em GitHub Pages
+</br>
+
+![Url](https://thumbs2.imgbox.com/29/d5/BE3ysenk_t.png)
+</br>
+Figura-17 Site Com Acesso Liberado Pelo Link
+</br>
 
 
