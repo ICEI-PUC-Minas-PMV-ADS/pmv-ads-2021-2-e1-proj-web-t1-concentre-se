@@ -29,7 +29,7 @@ Os requisitos para realização dos testes de software são:
 |     Caso de Teste   |                                     CT-02-Página Conteúdo                                                        |
 |---------------------|------------------------------------------------------------------------------------------------------------------|
 |Requisitos Associados| RF-003-  O site deve oferecer um menu de navegação que permita ao usuário escolher um assunto de sua preferência<br>RF-004- O site deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar textos, conteúdos e vídeos de seu interesse. |
-|Objetivo do Teste    | Verificar se a listagem dos conteúdos e o botão de pesquisa.|
+|Objetivo do Teste    | Verificar se a listagem dos conteúdos e do botão de pesquisa estão em pleno funcionameto.|
 |Passos               | 1) Acessar a página principal;<br>2) Selecionar a opção conteúdos no menu;<br>3) Visualizar a página conteúdos.| 
 |Critérios de Êxito   | -Deve ser exibido uma lista com conteúdos e eles serem links acessíveis para abrir a página do artigo.|
 
