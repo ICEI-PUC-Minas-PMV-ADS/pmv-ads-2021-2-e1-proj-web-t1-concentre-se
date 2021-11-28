@@ -1,17 +1,14 @@
-Pré-requisitos: Projeto de Interface, Plano de Testes de Software
+# Registro de Testes de Software #
 
-Relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado em um plano de testes pré-definido.
-
-Avaliação
-Os testes foram satisfatórios e eficazes na identificação das próximas implementações a serem aplicadas, apesar de não terem sido encontrados grandes problemas que interferissem no objetivo final que é converter o clique em prospecção.
-A grande vantagem do projeto foi ter uma boa definição nos passos anteriores quanto as disposições dos elementos, a simplicidade e eficácia para divulgação e ampliação do raio de atuação da loja.
-Houve uma grande concentração da equipe de desenvolvimento para que o ambiente da loja virtual seja totalmente responsivo e proporcione ao usuário final a mesma sensação de estar no ambiente da loja física, e passe confiabilidade para que aquela venda seja concretizada independentemente do dispositivo que esteja utilizando.
+Os testes executados nos mostram eficácia e sucessibilidade no Software. O objetivo final foi conquistado com êxito na executabilidade dos testes.
+No nosso projeto, analisamos quais seriam nossas prioridades altas, médias e baixas, o que nos deu clareza do que focar primeiro, afim de obtermos sucesso com simplicidade e eficácia em todo o site.
+Todas nossas ações foram bem pensadas, quanto a querer fazer com que o usuário alcançe seu objetivo na busca do que deseja encontrar. Cuidamos para que todo o site esteja responsivo, proporcionando ao usuário uma experiência completa, onde o mesmo pode acessar todas informações que possui no site.
 
 Abaixo temos os casos de testes especificado por seção, bem como os pontos que apresentaram alguma necessidade de melhoria.
 
 #### CT-01-Página Principal ####
-Ao realizar os testes baseados nos requisitos do Plano de Testes de Software, o conteudo foi analisado e se  encontra em pleno funcionamento.
 
+Ao realizar os testes baseados nos requisitos do Plano de Testes de Software, o conteúdo foi analisado e encontra-se em pleno funcionamento.
 
 ![HomePage](https://thumbs2.imgbox.com/b8/42/5yd15jjM_t.jpg)
 </br>
@@ -30,7 +27,7 @@ Figura-03 Tela de Inicial/Pesquisa/Url
 
 #### CT-02-Página Conteúdo ####
 
-Ao entrar na pagina de Conteudos o usuario relatou que a todas as funçoes estão funcionamento corretamente,e ao clicar nos artigos o mesmo conseguiu acessar todas as paginas com êxito.
+Ao entrar na pagina de Conteudos, o usuário relatou que todas as funções estão funcionando corretamente. E ao clicar nos artigos, o mesmo conseguiu acessar todas as paginas com êxito.
 
 ![Conteudo-Telainicial](https://thumbs2.imgbox.com/59/84/TkEDN6jA_t.png)
 </br>
@@ -54,7 +51,7 @@ Figura-07 Conteudos Responsivos
 
 #### CT-03-Página Fale Conosco ####
 
-Acessando a pagina Fale Conosco o usuario conseguiu visualizar todas  as informações referentes aos meios de comunicações.
+Acessando a página Fale Conosco, o usuário conseguiu visualizar todas  as informações referentes aos meios de comunicações com os mantenedores.
 
 ![Inicial/FaleConosco](https://thumbs2.imgbox.com/85/27/2bsfba4i_t.png)
 </br>
@@ -74,7 +71,7 @@ Figura-10 Fale Conosco Responsivo
 
 #### CT-04-Página Artigo ####
 
-O usuario acessando a pagina principal, ao clicar no artigo 01, o memso obteve sucesso no carregamento da pagina e na visualização completa do arquivo.
+O usuario, quando acessando a pagina principal, ao clicar no artigo desejado, o mesmo obteve sucesso no carregamento da pagina e na visualização completa do arquivo.
 
 ![InicialArtigos](https://thumbs2.imgbox.com/f3/87/73fXctEX_t.png)
 </br>
@@ -95,7 +92,7 @@ Figura-13 Tela de Artigo Responsiva
 
 #### CT-05-Responsividade, compatibilidade, cores e contraste ####
 
-Ao entrar em uma plataforma mobile, o usuario relatou que o site se manteve responsivo, conseguiu compartilhar dentro de todos os mecanismos oferecidos pelo site.O mesmo relatou que as cores do site ficaram bem detalhadas e confortaveis à visão do mesmo.
+Ao entrar em uma plataforma na versão mobile, o usuário declarou que o site continuou responsivo, conseguiu compartilhar dentro de todos os mecanismos oferecidos pelo site. O usuário também relatou que as cores do site ficaram bem detalhadas e confortáveis à visão do mesmo.
 
 ![ResponsivePc](https://thumbs2.imgbox.com/2a/ae/lrUTfbc0_t.jpg)
 </br>
@@ -110,7 +107,7 @@ Figura-15 Tela Responsiva Para Versão Mobile
 
 #### CT-06-Acessibilidade GitHub Pages ####.
 
-O site foi hospedado com êxito, com a Url em pleno funcionamento podendo ser acessada por todos os navegadores.
+O site foi hospedado com êxito, com a URL funcionando perfeitamente, podendo ser acessada em todos os navegadores.
 
 ![Hospedagem](https://thumbs2.imgbox.com/e0/4e/xjsVKgkr_t.png)
 </br>
