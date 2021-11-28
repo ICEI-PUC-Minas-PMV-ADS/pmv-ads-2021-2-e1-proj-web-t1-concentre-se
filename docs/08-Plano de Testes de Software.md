@@ -54,7 +54,7 @@ Os requisitos para realização dos testes de software são:
 |Passos               | 1)Verificar a responsividade no app: https://github.com/responsively-org/responsively-app<br>2)Verificar a compatibilidade com os navegadores.| 
 |Critérios de Êxito   |-Página responsiva e compativel.<br>-Imagens visíveis e agradáveis.|
 
-|     Caso de Teste   |                    CT-05-Acessibilidade GitHub Pages                                 |
+|     Caso de Teste   |                    CT-06-Acessibilidade GitHub Pages                                 |
 |---------------------|--------------------------------------------------------------------------------------------------------------|
 |Requisitos Associados| RNF-001 - O site deve ser publicado em um ambiente acessível publicamente na Internet (Repl.it, GitHub Pages, Heroku)|                                     
 | Objetivo do Teste   | Verificar se a página está publicada na web|
