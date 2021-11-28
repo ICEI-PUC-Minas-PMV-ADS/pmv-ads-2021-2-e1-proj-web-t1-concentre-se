@@ -23,7 +23,7 @@ Os requisitos para realização dos testes de software são:
 |---------------------|------------------------------------------------------------------------------------------------------------------|
 |Requisitos Associados| RF-001- O site deve apresentar, na página principal, artigos recomendados e as últimas publicações.<br>RF-003- O    site deve oferecer um menu de navegação que permita ao usuário escolher um assunto de sua preferência.|
 |Objetivo do Teste    | Verificar se o menu e o botão de busca estão em pleno funcionamento e se todos os artigos foram carregados        corretamente.|
-|Passos               | 1) Acessar o Navegador;<br>2) Informar o endereço do Site;<br>3) Visualizar a página inicial.| 
+|Passos               | 1) Acessar o Navegador;<br>2) Informar o endereço do Site: https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2021-2-e1-proj-web-t1-concentre-se/src/index.html<br>3) Visualizar a página inicial.| 
 |Critérios de Êxito   |- Deve haver um recurso do navegador;<br>- O menu exibido deve estar com os links acessíveis.|
 
 |     Caso de Teste   |                                     CT-02-Página Conteúdo                                                        |
