@@ -46,15 +46,16 @@ Os requisitos para realização dos testes de software são:
 |Passos               | 1) Acessar página principal;<br>2) Selecionar um artigo;<br>3) Visualizar página integral do artigo.| 
 |Critérios de Êxito   |-Página carregar todo texto e a imagem;<br>-É possível compartilhar o conteúdo atráves do campo de compartilhamento.|
 
-| Caso de Teste   |                    CT-05-Comentar o conteúdo                                   |
-|--------------------------------------------------------------------------------------------------|
+
+| Caso de Teste       |                    CT-05-Comentar o conteúdo                                   |
+|---------------------|--------------------------------------------------------------------------------|
 |Requisitos Associados| RNF-007-  O site deve permitir que usuários comente os conteúdos.<br>RF-008 - O site deve exibir os comentários registrados juntamente com a publicação exibida.|                                     
 | Objetivo do Teste   | Verificar se a funcionalidade de comentários está aiva, considerando que seja possivel realizar o comentário e que ele permaneça salvo na página.| 
 |Passos               | 1) Acessar página principal;<br>2) Selecionar um artigo;<br>3) Visualizar página integral do artigo.<br>4)Escrever um comentário.| 
 |Critérios de Êxito   |-Comentário aparece ao final do artigo.|
 
-|     Caso de Teste   |                    CT-06-Responsividade, compatibilidade, cores e contraste.                                   |
-|---------------------|--------------------------------------------------------------------------------------------------------------|
+|     Caso de Teste   |     CT-06-Responsividade, compatibilidade, cores e contraste.          |
+|---------------------|------------------------------------------------------------------------|
 |Requisitos Associados| RNF-002- O site deverá ser responsivo, permitindo a visualização em um celular de forma adequada.<br>RNF-004| O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge).<br>RNF-003- O site deve ter bom nível de contraste entre os elementos da tela em conformidade.|                                     
 | Objetivo do Teste   | Verificar a responsividade em dispositivo mobile, compatibilidade com diversos navegadores e as cores/contraste dos elementos visuais.|
 |Passos               | 1)Verificar a responsividade no app: https://github.com/responsively-org/responsively-app<br>2)Verificar a compatibilidade com os navegadores.| 
