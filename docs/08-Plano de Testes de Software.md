@@ -49,7 +49,7 @@ Os requisitos para realização dos testes de software são:
 
 | Caso de Teste       |                    CT-05-Comentar o conteúdo                                   |
 |---------------------|--------------------------------------------------------------------------------|
-|Requisitos Associados| RNF-007-  O site deve permitir que usuários comente os conteúdos.<br>RF-008 - O site deve exibir os comentários registrados juntamente com a publicação exibida.|                                     
+|Requisitos Associados| RF-007-  O site deve permitir que usuários comente os conteúdos.<br>RF-008 - O site deve exibir os comentários registrados juntamente com a publicação exibida.|                                     
 | Objetivo do Teste   | Verificar se a funcionalidade de comentários está aiva, considerando que seja possivel realizar o comentário e que ele permaneça salvo na página.| 
 |Passos               | 1) Acessar página principal;<br>2) Selecionar um artigo;<br>3) Visualizar página integral do artigo.<br>4)Escrever um comentário.| 
 |Critérios de Êxito   |-Comentário aparece ao final do artigo.|

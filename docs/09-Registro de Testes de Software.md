@@ -87,10 +87,11 @@ Figura-12 Tela de Artigos
 Figura-13 Tela de Artigo Responsiva
 </br>
 
-### CT-05-Comentar o conteúdo  ###
+#### CT-05-Comentar o conteúdo  ####
 
 Ao acessar o artigo de sua escolha, o usuário realizou um comentário e, posteriormente, verificou que sua interação permaneceu salva.
 
+print - HECTOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOR
 
 
 #### CT-06-Responsividade, compatibilidade, cores e contraste ####
