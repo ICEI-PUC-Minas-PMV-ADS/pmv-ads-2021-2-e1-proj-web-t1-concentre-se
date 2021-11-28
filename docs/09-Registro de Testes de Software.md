@@ -68,7 +68,6 @@ Figura-09 Tela Fale Conosco
 Figura-10 Fale Conosco Responsivo
 </br>
 
-
 #### CT-04-Página Artigo ####
 
 O usuario, quando acessando a pagina principal, ao clicar no artigo desejado, o mesmo obteve sucesso no carregamento da pagina e na visualização completa do arquivo.
@@ -83,14 +82,18 @@ Figura-11 Tela Inicial/Artigos
 Figura-12 Tela de Artigos
 </br>
 
-
 ![ArtigoResponsive](https://thumbs2.imgbox.com/9a/e7/e63g95UP_t.jpg)
 </br>
 Figura-13 Tela de Artigo Responsiva
 </br>
 
+### CT-05-Comentar o conteúdo  ###
 
-#### CT-05-Responsividade, compatibilidade, cores e contraste ####
+Ao acessar o artigo de sua escolha, o usuário realizou um comentário e, posteriormente, verificou que sua interação permaneceu salva.
+
+
+
+#### CT-06-Responsividade, compatibilidade, cores e contraste ####
 
 Ao entrar em uma plataforma na versão mobile, o usuário declarou que o site continuou responsivo, conseguiu compartilhar dentro de todos os mecanismos oferecidos pelo site. O usuário também relatou que as cores do site ficaram bem detalhadas e confortáveis à visão do mesmo.
 
@@ -105,7 +108,7 @@ Figura-14 Tela Responsiva para Versão Desktop
 Figura-15 Tela Responsiva Para Versão Mobile
 </br>
 
-#### CT-06-Acessibilidade GitHub Pages ####.
+#### CT-07-Acessibilidade GitHub Pages ####.
 
 O site foi hospedado com êxito, com a URL funcionando perfeitamente, podendo ser acessada em todos os navegadores.
 

@@ -74,7 +74,7 @@ Nesta seção são apresentadas as telas desenvolvidas para cada uma das funcion
 
  # Instruções de acesso:
  
- 1- Faça o download do arquivo do projeto (ZIP) ou clone do projeto no GitHub;<br>2- Descompacte o arquivo em uma pasta específica;<br>3- Abra o Visual Studio Code e execute o Live Server;
+ 1- Faça o download do arquivo do projeto (ZIP) ou clone do projeto no GitHub;<br>2- Descompacte o arquivo em uma pasta específica;<br>3- Abra o Visual Studio Code e execute o Live Server;<br>4-Ou, abra um navegador de internet e informe a URL: https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2021-2-e1-proj-web-t1-concentre-se/src/index.html
 
 
 
