@@ -1,7 +1,7 @@
 # Registro de Testes de Software #
 
 Os testes executados nos mostram eficácia e sucessibilidade no Software. O objetivo final foi conquistado com êxito na executabilidade dos testes.
-No nosso projeto, analisamos quais seriam nossas prioridades altas, médias e baixas, o que nos deu clareza do que focar primeiro, afim de obtermos sucesso com simplicidade e eficácia em todo o site.
+No nosso projeto, analisamos quais seriam nossas prioridades altas, médias e baixas, o que nos deu clareza do que focar primeiro, afim de obtermos sucesso com esforço e eficácia em todo o site.
 Todas nossas ações foram bem pensadas, quanto a querer fazer com que o usuário alcançe seu objetivo na busca do que deseja encontrar. Cuidamos para que todo o site esteja responsivo, proporcionando ao usuário uma experiência completa, onde o mesmo pode acessar todas informações que possui no site.
 
 Abaixo temos os casos de testes especificado por seção, bem como os pontos que apresentaram alguma necessidade de melhoria.
