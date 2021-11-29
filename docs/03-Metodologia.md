@@ -40,8 +40,6 @@ A equipe está organizada da seguinte maneira:
 
  Hector Florença da Silva Mendes
 
- Roberta Coutinho Paes
-
  Isabella Carolina de Almeida Siqueira Damião
 
 ●   **Equipe de Design**  :
