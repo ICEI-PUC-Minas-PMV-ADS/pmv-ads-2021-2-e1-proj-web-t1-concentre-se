@@ -91,8 +91,10 @@ Figura-13 Tela de Artigo Responsiva
 
 Ao acessar o artigo de sua escolha, o usuário realizou um comentário e, posteriormente, verificou que sua interação permaneceu salva.
 
-print - HECTOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOR
-
+![Comentario](https://thumbs2.imgbox.com/e4/b1/dp9E30dy_t.png)
+</br>
+Figura-14 Comentario do Usuario dentro do Artigo.
+</br>
 
 #### CT-06-Responsividade, compatibilidade, cores e contraste ####
 
@@ -100,13 +102,13 @@ Ao entrar em uma plataforma na versão mobile, o usuário declarou que o site co
 
 ![ResponsivePc](https://thumbs2.imgbox.com/2a/ae/lrUTfbc0_t.jpg)
 </br>
-Figura-14 Tela Responsiva para Versão Desktop
+Figura-15 Tela Responsiva para Versão Desktop
 </br>
 
 
 ![ResponsivaMobile](https://thumbs2.imgbox.com/42/2a/n2TPWIN0_t.jpg)
 </br>
-Figura-15 Tela Responsiva Para Versão Mobile
+Figura-16 Tela Responsiva Para Versão Mobile
 </br>
 
 #### CT-07-Acessibilidade GitHub Pages ####.
@@ -115,12 +117,12 @@ O site foi hospedado com êxito, com a URL funcionando perfeitamente, podendo se
 
 ![Hospedagem](https://thumbs2.imgbox.com/e0/4e/xjsVKgkr_t.png)
 </br>
-Figura-16 Site Hospedado em GitHub Pages
+Figura-17 Site Hospedado em GitHub Pages
 </br>
 
 ![Url](https://thumbs2.imgbox.com/29/d5/BE3ysenk_t.png)
 </br>
-Figura-17 Site Com Acesso Liberado Pelo Link
+Figura-18 Site Com Acesso Liberado Pelo Link
 </br>
 
 
